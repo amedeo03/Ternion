@@ -4,7 +4,7 @@
 	filename: "starting_out"
 	group: "7065D49BD275E20B"
 	icon: {
-		id: "minecraft:dragon_egg"
+		id: "minecraft:iron_pickaxe"
 	}
 	id: "2714AC7A8FF6860C"
 	order_index: 1
@@ -156,36 +156,8 @@
 					type: "dimension"
 				}
 			]
-			x: 13.0d
+			x: 12.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["1B2062C3466AC0C1"]
-			id: "2B101436AF2E224F"
-			tasks: [{
-				biome: "minecraft:deep_dark"
-				id: "627CBB6D8EF30377"
-				type: "biome"
-			}]
-			x: 13.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2B101436AF2E224F"]
-			icon: {
-				id: "minecraft:sculk_shrieker"
-			}
-			id: "6752B00CB13F759C"
-			shape: "diamond"
-			size: 2.0d
-			tasks: [{
-				entity: "minecraft:warden"
-				id: "2CDC1700E82DB9AA"
-				type: "kill"
-				value: 1L
-			}]
-			x: 15.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["3687EC0645E5C0AC"]
@@ -195,7 +167,7 @@
 				item: { count: 1, id: "minecraft:blaze_rod" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
@@ -206,7 +178,7 @@
 				item: { count: 1, id: "minecraft:glowstone" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: 2.0d
 		}
 		{
@@ -216,7 +188,7 @@
 				id: "356681B0EF636E7E"
 				type: "checkmark"
 			}]
-			x: 13.0d
+			x: 12.0d
 			y: 4.0d
 		}
 		{
@@ -259,7 +231,7 @@
 				item: { count: 1, id: "minecraft:ender_eye" }
 				type: "item"
 			}]
-			x: 17.0d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
@@ -286,7 +258,7 @@
 					value: 1L
 				}
 			]
-			x: 19.0d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
@@ -304,8 +276,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 2.0d
+			x: 14.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5942E52DA50DC0F0"]
@@ -321,8 +293,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 17.0d
-			y: 2.0d
+			x: 16.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3FC88B7AF2AEDFC1"]
@@ -344,34 +316,6 @@
 			}]
 			x: 8.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["3FC88B7AF2AEDFC1"]
-			id: "6C96FC95D3B89C54"
-			tasks: [
-				{
-					id: "7F2F199575AFBA3E"
-					item: { count: 1, id: "integrateddynamics:drying_basin" }
-					type: "item"
-				}
-				{
-					id: "671F49990B218392"
-					item: { count: 1, id: "minecraft:rotten_flesh" }
-					type: "item"
-				}
-			]
-			x: 9.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["6C96FC95D3B89C54"]
-			id: "3E18E94AA7854A6C"
-			tasks: [{
-				id: "1A4C28443268DE2A"
-				type: "checkmark"
-			}]
-			x: 9.0d
-			y: -4.0d
 		}
 		{
 			dependencies: ["1B2062C3466AC0C1"]

@@ -4,10 +4,7 @@
 	filename: "welcome"
 	group: "7065D49BD275E20B"
 	icon: {
-		components: {
-			"ftbquests:icon": "advanced_ae:block/crafting/quantum_structure_powered"
-		}
-		id: "ftbquests:custom_icon"
+		id: "malum:intricate_assembly"
 	}
 	id: "03C21EC3F8A57ED5"
 	order_index: 0

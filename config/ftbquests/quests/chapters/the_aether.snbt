@@ -13,7 +13,7 @@
 		id: "3566935CCD105E96"
 		tasks: [
 			{
-				count: 8L
+				count: 10L
 				id: "38617EF356C391B1"
 				item: { count: 1, id: "minecraft:glowstone" }
 				type: "item"

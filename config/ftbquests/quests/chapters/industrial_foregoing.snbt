@@ -26,8 +26,8 @@
 			id: "236EB96A83D29614"
 			tasks: [
 				{
-					id: "2BD4792A2EF00405"
-					item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
+					id: "25A940D8B99AC56F"
+					item: { count: 1, id: "industrialforegoing:fluid_extractor" }
 					type: "item"
 				}
 				{
@@ -38,6 +38,656 @@
 			]
 			x: 2.0d
 			y: 0.0d
+		}
+		{
+			id: "224853BC01B8DFCD"
+			tasks: [{
+				id: "3E6055682541D054"
+				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"236EB96A83D29614"
+				"224853BC01B8DFCD"
+				"28725DB84C2D1AEB"
+			]
+			id: "43BE87689F2B51AB"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "32C5D4BE4A74098B"
+				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"43BE87689F2B51AB"
+				"4A0EA40A5B9E58B6"
+			]
+			id: "2583E2C1C3288656"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "6678D1A56DCEFFE2"
+				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"001FCA149413F4DB"
+				"2583E2C1C3288656"
+			]
+			id: "0C36A83AE4B6A9A2"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "1412B84775995669"
+				item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E79B8AFBE39FB31"]
+			hide_dependency_lines: true
+			id: "4A0EA40A5B9E58B6"
+			tasks: [
+				{
+					id: "3D5393968C1573FC"
+					item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
+					type: "item"
+				}
+				{
+					id: "7D256BF2001A5474"
+					item: { count: 1, id: "industrialforegoing:pink_slime_bucket" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "28725DB84C2D1AEB"
+			tasks: [{
+				id: "6FC270970993D04F"
+				item: { count: 1, id: "industrialforegoing:plastic" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2583E2C1C3288656"]
+			id: "57C75609AA597267"
+			tasks: [{
+				id: "0537E08567E5B827"
+				item: { count: 1, id: "industrialforegoing:laser_drill" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["57C75609AA597267"]
+			hide_dependency_lines: true
+			id: "58494A6F40A05F27"
+			tasks: [{
+				id: "4D590F2F953DF616"
+				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["57C75609AA597267"]
+			id: "4E4FBE397A4C29F1"
+			tasks: [{
+				id: "1B24F256C2979573"
+				item: { count: 1, id: "industrialforegoing:fluid_laser_base" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E4FBE397A4C29F1"]
+			id: "45EA312B13FCEAA3"
+			tasks: [{
+				id: "2E74A56591E3BDF9"
+				item: { count: 1, id: "industrialforegoing:stasis_chamber" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["45EA312B13FCEAA3"]
+			id: "001FCA149413F4DB"
+			tasks: [
+				{
+					id: "2A53971D5EC0609C"
+					item: { count: 1, id: "industrialforegoing:purple_laser_lens" }
+					type: "item"
+				}
+				{
+					id: "68800F11F032B064"
+					item: { count: 1, id: "industrialforegoing:ether_gas_bucket" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			id: "502521B48C5B8963"
+			tasks: [{
+				id: "49C3E9B68DCDF074"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["502521B48C5B8963"]
+			id: "66D9F3BAA0F71A90"
+			tasks: [{
+				id: "316B99D27FB77FF6"
+				item: { components: { "industrialforegoing:infinity_can_charge": 1b, "industrialforegoing:infinity_item_power": 0L, "industrialforegoing:infinity_item_selected_tier": "poor", "industrialforegoing:infinity_item_special": 0b }, count: 1, id: "industrialforegoing:infinity_drill" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["502521B48C5B8963"]
+			id: "38A82312F4F0FE4C"
+			tasks: [{
+				id: "43188680F092DB42"
+				item: { components: { "industrialforegoing:infinity_can_charge": 1b, "industrialforegoing:infinity_item_power": 0L, "industrialforegoing:infinity_item_selected_tier": "poor", "industrialforegoing:infinity_item_special": 0b }, count: 1, id: "industrialforegoing:infinity_saw" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["502521B48C5B8963"]
+			id: "23E842AF2EB3C824"
+			tasks: [{
+				id: "377FC3F6CE420227"
+				item: { components: { "industrialforegoing:infinity_can_charge": 1b, "industrialforegoing:infinity_hammer_beheading": 0, "industrialforegoing:infinity_item_power": 0L, "industrialforegoing:infinity_item_selected_tier": "poor", "industrialforegoing:infinity_item_special": 0b }, count: 1, id: "industrialforegoing:infinity_hammer" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["502521B48C5B8963"]
+			id: "5C5C5AD16CA4949A"
+			tasks: [{
+				id: "2BA1FDB113EC1B66"
+				item: { components: { "industrialforegoing:infinity_can_charge": 1b, "industrialforegoing:infinity_item_power": 0L, "industrialforegoing:infinity_item_selected_tier": "poor", "industrialforegoing:infinity_item_special": 0b, "industrialforegoing:infinity_trident_channeling": 0b, "industrialforegoing:infinity_trident_loyalty": 0, "industrialforegoing:infinity_trident_riptide": 0 }, count: 1, id: "industrialforegoing:infinity_trident" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["502521B48C5B8963"]
+			id: "418D3BA379910B9B"
+			tasks: [{
+				id: "7C7044F75E08B5BA"
+				item: { components: { "industrialforegoing:infinity_can_charge": 1b, "industrialforegoing:infinity_item_power": 0L, "industrialforegoing:infinity_item_selected_tier": "poor", "industrialforegoing:infinity_item_special": 0b }, count: 1, id: "industrialforegoing:infinity_backpack" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["502521B48C5B8963"]
+			id: "79A308A59E71C0BC"
+			tasks: [{
+				id: "337D9AD7587F8EB4"
+				item: { components: { "industrialforegoing:configuration_action": "RELEASE", "industrialforegoing:infinity_can_charge": 1b, "industrialforegoing:infinity_item_power": 0L, "industrialforegoing:infinity_item_selected_tier": "poor", "industrialforegoing:infinity_item_special": 0b }, count: 1, id: "industrialforegoing:infinity_launcher" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["502521B48C5B8963"]
+			id: "108345289335C785"
+			tasks: [{
+				id: "6317A94BEFAFE425"
+				item: { components: { "industrialforegoing:infinity_can_charge": 1b, "industrialforegoing:infinity_item_power": 0L, "industrialforegoing:infinity_item_selected_tier": "poor", "industrialforegoing:infinity_item_special": 0b }, count: 1, id: "industrialforegoing:infinity_nuke" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6E79B8AFBE39FB31"]
+			hide_dependency_lines: true
+			id: "79A07A823BED3A54"
+			tasks: [{
+				id: "4D84C6D8FF642573"
+				item: { count: 1, id: "industrialforegoing:plant_gatherer" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["79A07A823BED3A54"]
+			id: "7D04253285BF38C4"
+			tasks: [{
+				id: "4ACEBD0D82DFAE34"
+				item: { count: 1, id: "industrialforegoing:plant_sower" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["79A07A823BED3A54"]
+			id: "2F29F998322CF59F"
+			tasks: [{
+				id: "6E46B43A64CE7492"
+				item: { count: 1, id: "industrialforegoing:plant_fertilizer" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"2F29F998322CF59F"
+				"43DE6F194CECBDBA"
+			]
+			id: "5A3F6C259E059C13"
+			tasks: [{
+				id: "68C6FBD8448CFF63"
+				item: { count: 1, id: "industrialforegoing:fertilizer" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1FE0BB3481020ED8"]
+			id: "43DE6F194CECBDBA"
+			tasks: [{
+				id: "15A0DB867B6C67A2"
+				item: { count: 1, id: "industrialforegoing:sewage_composter" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6E79B8AFBE39FB31"]
+			hide_dependency_lines: true
+			id: "1FE0BB3481020ED8"
+			tasks: [{
+				id: "4E48BB8BD1636A76"
+				item: { count: 1, id: "industrialforegoing:sewer" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["58494A6F40A05F27"]
+			id: "5F902466A314A117"
+			tasks: [
+				{
+					id: "6D5C1DC6C715420B"
+					item: { count: 1, id: "minecraft:raw_iron" }
+					type: "item"
+				}
+				{
+					id: "64C1E14652531BAC"
+					item: { count: 1, id: "industrialforegoing:meat_bucket" }
+					type: "item"
+				}
+				{
+					id: "108D69347068DCBE"
+					item: { count: 1, id: "industrialforegoing:washing_factory" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5F902466A314A117"]
+			id: "7E3A5717F4A5BE8D"
+			tasks: [
+				{
+					id: "3B42DAA6E52D9556"
+					item: { count: 1, id: "industrialforegoing:raw_ore_meat_bucket" }
+					type: "item"
+				}
+				{
+					id: "4BCC886CE652D391"
+					item: { count: 1, id: "industrialforegoing:fermentation_station" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7E3A5717F4A5BE8D"]
+			id: "32A4539759CFFE05"
+			tasks: [
+				{
+					id: "0C3A6AD77463DD29"
+					item: { count: 1, id: "industrialforegoing:fermented_ore_meat_bucket" }
+					type: "item"
+				}
+				{
+					id: "3258F1595760857F"
+					item: { count: 1, id: "minecraft:sand" }
+					type: "item"
+				}
+				{
+					id: "7DEE5301991E0D3F"
+					item: { count: 1, id: "industrialforegoing:fluid_sieving_machine" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["32A4539759CFFE05"]
+			id: "441FB713212B8878"
+			tasks: [
+				{
+					id: "497CEC0E07363FBE"
+					item: { count: 1, id: "alltheores:iron_dust" }
+					type: "item"
+				}
+				{
+					id: "2DBB9AABF4499F73"
+					item: { count: 1, id: "industrialforegoing:resourceful_furnace" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["441FB713212B8878"]
+			id: "50D870E80F993D50"
+			tasks: [{
+				id: "58D7F889A48D2261"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0C36A83AE4B6A9A2"]
+			id: "51D7EC6055768283"
+			tasks: [{
+				id: "57340CED1F010CE1"
+				item: { count: 1, id: "industrialforegoing:wither_builder" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0C36A83AE4B6A9A2"
+				"43B600321BA29842"
+				"5EA241D4961C49F9"
+				"38C65A4C29CE571A"
+				"208DCA8C794DEE25"
+				"218CDAAA6C973C64"
+				"38F6893411890DAD"
+				"10EEEF567E7D36A4"
+				"0FD25E2119F38E43"
+				"5502CB04F389963F"
+				"702A66967A42A6B8"
+				"39F47D10EDF12DF3"
+				"7F3C45FF42A9DDFF"
+				"240ABDEA87973515"
+				"448FF4B83D9BEFDE"
+				"6595994DDA9630B4"
+				"1A5AF1738528F2BB"
+			]
+			id: "5B2E74306B43F881"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "2F367F8B90C8BB87"
+				item: { count: 1, id: "industrialforegoing:mycelial_reactor" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			id: "0FD25E2119F38E43"
+			tasks: [{
+				id: "5A460536086D40D2"
+				item: { count: 1, id: "industrialforegoing:mycelial_furnace" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.5d
+		}
+		{
+			id: "1A5AF1738528F2BB"
+			tasks: [{
+				id: "24918CED3E11C2A0"
+				item: { count: 1, id: "industrialforegoing:mycelial_slimey" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -0.5d
+		}
+		{
+			id: "5EA241D4961C49F9"
+			tasks: [{
+				id: "64AAD585D67F55A1"
+				item: { count: 1, id: "industrialforegoing:mycelial_culinary" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -1.5d
+		}
+		{
+			id: "448FF4B83D9BEFDE"
+			tasks: [{
+				id: "451F410327EBA37C"
+				item: { count: 1, id: "industrialforegoing:mycelial_potion" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			id: "208DCA8C794DEE25"
+			tasks: [{
+				id: "75DD01B0066447C2"
+				item: { count: 1, id: "industrialforegoing:mycelial_disenchantment" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 1.5d
+		}
+		{
+			id: "218CDAAA6C973C64"
+			tasks: [{
+				id: "3B87830025047069"
+				item: { count: 1, id: "industrialforegoing:mycelial_ender" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			id: "38F6893411890DAD"
+			tasks: [{
+				id: "3A478024AE72081A"
+				item: { count: 1, id: "industrialforegoing:mycelial_explosive" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			id: "10EEEF567E7D36A4"
+			tasks: [{
+				id: "3C7A5D8E871CF867"
+				item: { count: 1, id: "industrialforegoing:mycelial_frosty" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			id: "5502CB04F389963F"
+			tasks: [{
+				id: "750EF16F7AB11D76"
+				item: { count: 1, id: "industrialforegoing:mycelial_halitosis" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			id: "702A66967A42A6B8"
+			tasks: [{
+				id: "0C73C2BFD25214D7"
+				item: { count: 1, id: "industrialforegoing:mycelial_magma" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.5d
+		}
+		{
+			id: "240ABDEA87973515"
+			tasks: [{
+				id: "21FA47B68D68F611"
+				item: { count: 1, id: "industrialforegoing:mycelial_pink" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			id: "7F3C45FF42A9DDFF"
+			tasks: [{
+				id: "0CAFC14C1B68CD2F"
+				item: { count: 1, id: "industrialforegoing:mycelial_netherstar" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			id: "38C65A4C29CE571A"
+			tasks: [{
+				id: "09F8DE3FDF54E910"
+				item: { count: 1, id: "industrialforegoing:mycelial_death" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			id: "6595994DDA9630B4"
+			tasks: [{
+				id: "7FA8D5ECAAB2E8B4"
+				item: { count: 1, id: "industrialforegoing:mycelial_rocket" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			id: "43B600321BA29842"
+			tasks: [{
+				id: "168400EC49E7E807"
+				item: { count: 1, id: "industrialforegoing:mycelial_crimed" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			id: "39F47D10EDF12DF3"
+			tasks: [{
+				id: "0EB1D995134AED28"
+				item: { count: 1, id: "industrialforegoing:mycelial_meatallurgic" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A3F6C259E059C13"]
+			id: "79F0EA7E19D6D0D7"
+			tasks: [{
+				id: "46261C4AF33B1F8D"
+				item: { count: 1, id: "industrialforegoing:hydroponic_bed" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["79F0EA7E19D6D0D7"]
+			id: "40E1262B78EA968C"
+			tasks: [
+				{
+					id: "67E963F8F51623BE"
+					item: { count: 1, id: "industrialforegoing:simulated_hydroponic_bed" }
+					type: "item"
+				}
+				{
+					id: "3417D977784A62F1"
+					item: { components: { "industrialforegoing:hydroponic_simulation_processor": { } }, count: 1, id: "industrialforegoing:hydroponic_simulation_processor" }
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["502521B48C5B8963"]
+			id: "659D86F877E341A9"
+			tasks: [
+				{
+					id: "5B99200ACDDD0340"
+					item: { count: 1, id: "industrialforegoing:bioreactor" }
+					type: "item"
+				}
+				{
+					id: "6D409D83CB9CF540"
+					item: { count: 1, id: "industrialforegoing:biofuel_bucket" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.0d
 		}
 	]
 }

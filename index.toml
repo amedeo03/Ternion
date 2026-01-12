@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "LICENSE"
-hash = "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331"
-
-[[files]]
 file = "config/accessories.json5"
 hash = "5dd4cbbfd3325c9f2870f4a33254483b47fdb3ebb43049daf4ac39148a25f118"
 
@@ -97,48 +93,32 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "a187647166246084b0ffb1d94f927ac65bd034b808a3aa53597b944d79955af6"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/apothic_enchanting.snbt"
-hash = "adc00b75a228a2c16513fefbdb5ec96c88d9ebacbc25536f80f3e4369f0a8580"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
 hash = "ff9145ede79645b9c730fce60ecbee1aabb8a24c51899cc0a3a5840d33aa25a5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "d3b60d17507d0b2ceeae5492a46302d63379c625a64364f8fbb4996021c4a9e8"
+hash = "e8b690044aee4121139d66d156286d59acd99ba79063c5f3c05f8d188cbae4f0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/cataclysm.snbt"
 hash = "0764a582b2b37b01d2c58c0ffaf473b7fe194d9c15a1d7c54ff166c3e220f423"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/extreme_reactors.snbt"
-hash = "72e9738f11dd243891a4f46f6b65a8401a44c7d62a34fb53856def7b90c9de39"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/goals.snbt"
-hash = "c2396ec08c34e2fc5bddf8f573c67135c4df9021f5ba7b6da168deca8e567067"
+hash = "0ccf11466e7c8647c5437a3278f8bf113c72668eedcb6968b0f3fe6664d70480"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_foregoing.snbt"
-hash = "4b2dc45006c10f03f4ec4815dc67f0c785cc2c16d1f87405a5b9756b90554d4f"
+hash = "ab0d51281d7aa85109fc36a31f1826dcf073c8bb1b8ffff5225d58b3780ffd7e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/malum.snbt"
 hash = "b7523e6c90a81db1356cfaac1aa38b2b29603ee1cbcb69f4bf04f544ae4ce333"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/mi_electri_age.snbt"
-hash = "3922cc9dc1fe75a911b9e0dfe017b2417b16ec8dcaefac38e7943ccddb8142e8"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/mi_steam_age.snbt"
-hash = "ae65d5a06e66716d69ec845ee4be0276ef796f4220412f56e5348c22a6606d66"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/mowzies_mobs.snbt"
-hash = "819ec1881c06cb8cda8a8e85c8dbebea3e48cb819d65006b31762255ca39fd8c"
+file = "config/ftbquests/quests/chapters/mekanism.snbt"
+hash = "17e8d9a614186b64ce61cd442d232e460cfa58bb1d315b0bdcc68b7f1022e6a6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/occultism.snbt"
@@ -158,11 +138,11 @@ hash = "1ec4bead95c72c2d6b5127fcb8d62e54ac226a8e63f9ee4a5ea867c95ac0d32f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/starting_out.snbt"
-hash = "a6627e0a55147845a9cbe0f6c5be196ca340080c3e027cf9c05706adfb446e45"
+hash = "e91ad2d1be92910223ef45b80ff33458b9c24567d63b671fa2977fc13ca5e94e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_aether.snbt"
-hash = "bd93076b87ad3d0bfefcc53c7b46d4a3ac1970b97e431ba71bd2dd6fa9a9389b"
+hash = "328a433ff67e4105843c8b4e8a61fb6045044ede6c8156647c4e29bf907fbb39"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/twilight_forest.snbt"
@@ -170,15 +150,11 @@ hash = "844f4a4d2f0919bd799fa21ad3ebff2343e4053534ee10131e926290ca3bc226"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "b88f1de5603aa20466bddaedc830ad2a21570631eff2847063921e62ac22bcbd"
+hash = "2cce09ef453b3052e5c4554cb7c166cab4dcdf645b44e987cb957f1496507330"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
 hash = "d7dd511fa89cc9066374f537d8e9259d6caff8fe7db0a0a04db3af393100e0a4"
-
-[[files]]
-file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "f80a6c29616648ecfe10370346d5c4ca43621666fb3cee40b06e0bbb9526cc7c"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
@@ -484,11 +460,6 @@ hash = "967449279987357bbdd339b391dc4271bed832a161be61fcb964057af7943f72"
 metafile = true
 
 [[files]]
-file = "mods/ars-elemental.pw.toml"
-hash = "2ed84a093c1e5057ec68851099f502ce4e98a54a2d3b719d3882d74e9f5ccfb6"
-metafile = true
-
-[[files]]
 file = "mods/ars-energistique.pw.toml"
 hash = "77c22c9c5acc1be0907e043a198e7c068823c6da58c566caac7110975dcf96cd"
 metafile = true
@@ -546,16 +517,6 @@ metafile = true
 [[files]]
 file = "mods/building-gadgets.pw.toml"
 hash = "88908286eebea979713b5626891f634317fcc4c5a5bd4ec0c9444a33863a4518"
-metafile = true
-
-[[files]]
-file = "mods/c2me.pw.toml"
-hash = "a5dfa298717e29ce78aa9d9672071dcf83ac16995bbaef6546f57f06104be444"
-metafile = true
-
-[[files]]
-file = "mods/carry-on.pw.toml"
-hash = "11fa4cee80d5456e1681f8229c756d8c4aaa3ce6fcd8ab0bef62f408c95441e6"
 metafile = true
 
 [[files]]
@@ -691,11 +652,6 @@ metafile = true
 [[files]]
 file = "mods/easy-magic.pw.toml"
 hash = "efce6a511bf4a60c64fe082fd183c9cd693861fb79413ba540cb1053ff562191"
-metafile = true
-
-[[files]]
-file = "mods/easy-name-tags-rename-nametags.pw.toml"
-hash = "270985ca5385e15aa12e83f0c43a216878d2628d841c954f8067a4d0cd91dc3f"
 metafile = true
 
 [[files]]
@@ -974,21 +930,6 @@ hash = "7fbe3225c134e823a07f3aecedace39fe866f327671ecca928f134399b94008d"
 metafile = true
 
 [[files]]
-file = "mods/kubejs-mekanism.pw.toml"
-hash = "d8e177615c38e56e8f712f9144c0f9f50e74adf5fe88c7fb0aa88e33cb1dbcdc"
-metafile = true
-
-[[files]]
-file = "mods/kubejs-oritech-kjs.pw.toml"
-hash = "8f2a0c9187bbd1d5e64b77a3f8adc264831f179e3cbf79fef9f5b16acf9741b0"
-metafile = true
-
-[[files]]
-file = "mods/kubejs-powah.pw.toml"
-hash = "57772f5463d9f5cba29c1831099dffcd29d2008a397493015642486b6d5d9269"
-metafile = true
-
-[[files]]
 file = "mods/kubejs.pw.toml"
 hash = "395ed890024bdb90e7c0fed1edf8b3905a367942ded954fca92384c76a7e5601"
 metafile = true
@@ -1079,11 +1020,6 @@ hash = "5634fdbd968dfd9fd3bce683f3474d34dc5d7753ed87574d713c15b41f88e8f9"
 metafile = true
 
 [[files]]
-file = "mods/mega-cells.pw.toml"
-hash = "1407c5f442d484086b6b79afc84ace1c384f2918019cea703e9736fe3f40d69b"
-metafile = true
-
-[[files]]
 file = "mods/mekagenjei-mekanism-generator-addon.pw.toml"
 hash = "347d12ca0b98a00e5c1a85817b3cf7d1013b3855d2342aaa95abc9dab7f1e614"
 metafile = true
@@ -1106,11 +1042,6 @@ metafile = true
 [[files]]
 file = "mods/merequester.pw.toml"
 hash = "bfc445fb0932fb08a6dcbd4d6344f75577b6dc79c8d288b367549930e35a2afe"
-metafile = true
-
-[[files]]
-file = "mods/mifa.pw.toml"
-hash = "c55f5ed9eab9e033c80f91bc1cbe14e34e4c3ef28160f1022cbdeff79fb55db1"
 metafile = true
 
 [[files]]
@@ -1416,11 +1347,6 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
-metafile = true
-
-[[files]]
-file = "mods/structure-layout-optimizer.pw.toml"
-hash = "db845eb158247bde04edc727945fbf67c6a46f0cbe4d2a1e9142263c022c73f8"
 metafile = true
 
 [[files]]

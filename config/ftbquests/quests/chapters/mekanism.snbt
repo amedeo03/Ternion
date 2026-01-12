@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "06F8B81A7B19F9DB"
+	icon: {
+		id: "mekanism:ultimate_control_circuit"
+	}
+	id: "11494E82186F6878"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "228A07B331F671C3"
+		tasks: [{
+			id: "4F33ACAA160992FF"
+			item: { count: 1, id: "alltheores:osmium_ingot" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

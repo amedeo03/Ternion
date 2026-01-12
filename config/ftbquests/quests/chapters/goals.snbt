@@ -9,13 +9,165 @@
 	id: "331270248DBD9A5E"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "4C031F482241E50F"
-		tasks: [{
-			id: "743830C3821B8F00"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"0B44E0E591F487BE"
+				"43D00A335E51CD3F"
+				"2BC0300A52E397DF"
+			]
+			id: "4C031F482241E50F"
+			size: 2.0d
+			tasks: [{
+				id: "743830C3821B8F00"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1533A7B53F0AD4AE"]
+			id: "43D00A335E51CD3F"
+			tasks: [{
+				id: "18A4B5F40AA4E50A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26FC07744D39F5DD"]
+			id: "2BC0300A52E397DF"
+			tasks: [
+				{
+					id: "21B2BE92F70D70A2"
+					type: "checkmark"
+				}
+				{
+					id: "2142DF2DCEE43AEE"
+					item: { count: 1, id: "industrialforegoing:mycelial_reactor" }
+					type: "item"
+				}
+				{
+					id: "34454EEC866F54F4"
+					item: { count: 1, id: "mekanism:sps_casing" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78436445AD8A5388"]
+			id: "0B44E0E591F487BE"
+			tasks: [
+				{
+					id: "5BBBF33A2937E3E1"
+					type: "checkmark"
+				}
+				{
+					id: "587A0D5A4CB4BA91"
+					item: { count: 1, id: "aether:gold_dungeon_key" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11AA3BBA2DFFEBBE"]
+			id: "1533A7B53F0AD4AE"
+			tasks: [{
+				id: "7D1E261895137BF1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "11AA3BBA2DFFEBBE"
+			tasks: [{
+				id: "2FA5A2396D0DBE45"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["26F39F803F9593E0"]
+			id: "26FC07744D39F5DD"
+			tasks: [
+				{
+					id: "22413ABCC431BB9B"
+					type: "checkmark"
+				}
+				{
+					id: "287F3235C2210033"
+					item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+					type: "item"
+				}
+				{
+					id: "4288B6F30668E983"
+					item: { count: 1, id: "mekanism:quantum_entangloporter" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "26F39F803F9593E0"
+			tasks: [
+				{
+					id: "0D196EF8DF032719"
+					type: "checkmark"
+				}
+				{
+					id: "7997FBB82868D22A"
+					item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
+					type: "item"
+				}
+				{
+					id: "5257FA133FB99FC7"
+					item: { count: 1, id: "mekanism:basic_energy_cube" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["07D0D7727E851045"]
+			id: "78436445AD8A5388"
+			tasks: [
+				{
+					id: "586F6FB3A6BD8B62"
+					type: "checkmark"
+				}
+				{
+					id: "527CD0768B8CB34C"
+					item: { count: 1, id: "aether:silver_dungeon_key" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "07D0D7727E851045"
+			tasks: [
+				{
+					id: "0BF0196100A14E26"
+					type: "checkmark"
+				}
+				{
+					id: "1D2363ADA171A212"
+					item: { count: 1, id: "aether:bronze_dungeon_key" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 4.5d
+		}
+	]
 }
