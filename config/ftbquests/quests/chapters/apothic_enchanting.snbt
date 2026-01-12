@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apothic_enchanting"
+	group: "652219CFA168DABB"
+	icon: {
+		id: "apothic_enchanting:ender_library"
+	}
+	id: "7FDD94206356A416"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "6364C3C6ED2A1CE6"
+		tasks: [
+			{
+				id: "031C77496A316E8A"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}
+			{
+				count: 15L
+				id: "372CC4CCE3FE37B0"
+				item: { count: 1, id: "minecraft:bookshelf" }
+				type: "item"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

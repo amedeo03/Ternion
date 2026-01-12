@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_aether"
+	group: "7D1D8B568D74EFEC"
+	icon: {
+		id: "aether:aether_portal_frame"
+	}
+	id: "4DBCE81DD78B8415"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "3566935CCD105E96"
+		tasks: [
+			{
+				count: 8L
+				id: "38617EF356C391B1"
+				item: { count: 1, id: "minecraft:glowstone" }
+				type: "item"
+			}
+			{
+				dimension: "aether:the_aether"
+				id: "11E48CA804E92185"
+				type: "dimension"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

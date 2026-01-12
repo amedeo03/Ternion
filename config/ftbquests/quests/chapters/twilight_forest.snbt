@@ -1,0 +1,29 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight_forest"
+	group: "7D1D8B568D74EFEC"
+	icon: {
+		id: "twilightforest:magic_map_focus"
+	}
+	id: "367FB817EA0FDF01"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "6228E469E823F0D0"
+		tasks: [
+			{
+				id: "424182BBA67BBF78"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}
+			{
+				dimension: "twilightforest:twilight_forest"
+				id: "69B04EF6AC519567"
+				type: "dimension"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

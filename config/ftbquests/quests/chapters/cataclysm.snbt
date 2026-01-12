@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "7D1D8B568D74EFEC"
+	icon: {
+		id: "cataclysm:flame_eye"
+	}
+	id: "65331ECA12E485F5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "5E3F44288E4FF846"
+		tasks: [{
+			id: "642579955038A9AB"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

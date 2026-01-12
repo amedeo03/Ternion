@@ -1,0 +1,13 @@
+name = "Ternion"
+author = "Betelgeuse27"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "3e9f730fd2892e3cb5b2aa6d99e7722c7f5607ae83ebaa40e7c7d7d4ceb96c21"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.218"

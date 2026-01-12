@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "7065D49BD275E20B"
+	icon: {
+		components: {
+			"ftbquests:icon": "advanced_ae:block/crafting/quantum_structure_powered"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "03C21EC3F8A57ED5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "26645766829B807B"
+		shape: "hexagon"
+		size: 3.0d
+		tasks: [{
+			id: "4D3E1C7A279B3C26"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

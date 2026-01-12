@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "goals"
+	group: "7065D49BD275E20B"
+	icon: {
+		id: "minecraft:nether_star"
+	}
+	id: "331270248DBD9A5E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "4C031F482241E50F"
+		tasks: [{
+			id: "743830C3821B8F00"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

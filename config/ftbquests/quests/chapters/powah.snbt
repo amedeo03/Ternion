@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powah"
+	group: "652219CFA168DABB"
+	icon: {
+		id: "powah:battery_spirited"
+	}
+	id: "14910B690E5728A2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "4A526D7AE4C759C2"
+		tasks: [{
+			id: "4329B80C8987E95E"
+			item: { count: 1, id: "powah:uraninite_raw" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

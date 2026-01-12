@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mi_steam_age"
+	group: "06F8B81A7B19F9DB"
+	icon: {
+		id: "modern_industrialization:steam_blast_furnace"
+	}
+	id: "3043AA6D3065D481"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3B6C53EE134D5AF0"
+			rewards: [{
+				id: "3556352C9BCD26C7"
+				item: {
+					count: 1
+					id: "modern_industrialization:iron_hammer"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "12C45A78257FF333"
+				item: { count: 1, id: "modern_industrialization:forge_hammer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B6C53EE134D5AF0"]
+			id: "46B1AFE58550B23C"
+			tasks: [{
+				id: "04CA85692F9F288E"
+				item: { count: 1, id: "alltheores:bronze_ingot" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}

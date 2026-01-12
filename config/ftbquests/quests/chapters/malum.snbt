@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "malum"
+	group: "70BD11301278432D"
+	icon: {
+		id: "malum:soulbinding_brazier"
+	}
+	id: "21F9735F9B291649"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "62F875E32F812E9E"
+		tasks: [{
+			id: "69D0D0662ABA4E58"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

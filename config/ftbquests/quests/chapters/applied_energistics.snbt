@@ -1,0 +1,37 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics"
+	group: "652219CFA168DABB"
+	icon: {
+		id: "chisel_chipped_integration:futura_me_controller_ae_2"
+	}
+	id: "0E93EC69DE4AC20C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "ae2:meteorite_compass"
+		}
+		id: "2B228A697B6B9352"
+		tasks: [
+			{
+				id: "32E797F66CF25F14"
+				item: { count: 1, id: "ae2:charger" }
+				type: "item"
+			}
+			{
+				id: "1EDAEFA38CFC9B22"
+				item: { count: 1, id: "minecraft:compass" }
+				type: "item"
+			}
+			{
+				id: "7C6F9FC384ADE48B"
+				item: { count: 1, id: "ae2:meteorite_compass" }
+				type: "item"
+			}
+		]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

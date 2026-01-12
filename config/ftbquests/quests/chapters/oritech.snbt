@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oritech"
+	group: "06F8B81A7B19F9DB"
+	icon: {
+		id: "oritech:machine_core_2"
+	}
+	id: "7A25C3B13FD8BC6D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "6053336F5936528D"
+		size: 1.5d
+		tasks: [{
+			id: "708541A8413352D2"
+			item: { count: 1, id: "alltheores:nickel_ingot" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

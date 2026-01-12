@@ -1,0 +1,43 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_foregoing"
+	group: "06F8B81A7B19F9DB"
+	icon: {
+		id: "industrialforegoing:machine_frame_simple"
+	}
+	id: "55A67ADE490E095A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6E79B8AFBE39FB31"
+			size: 1.5d
+			tasks: [{
+				id: "6B59DE0E09196B6A"
+				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E79B8AFBE39FB31"]
+			id: "236EB96A83D29614"
+			tasks: [
+				{
+					id: "2BD4792A2EF00405"
+					item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
+					type: "item"
+				}
+				{
+					id: "243B20D8B0267C7B"
+					item: { count: 1, id: "industrialforegoing:latex_bucket" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+}
