@@ -1,0 +1,13 @@
+name = "Advanced Loot Info"
+filename = "AdvancedLootInfo-neoforge-1.21.1-1.6.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e8782c23d9fe8de9f3a08deb2b35c877548e51e9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7451618
+project-id = 1205426

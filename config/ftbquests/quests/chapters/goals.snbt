@@ -28,6 +28,14 @@
 		{
 			dependencies: ["1533A7B53F0AD4AE"]
 			id: "43D00A335E51CD3F"
+			rewards: [{
+				id: "5C5CC5ACA79C6604"
+				item: {
+					count: 1
+					id: "ars_nouveau:creative_source_jar"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "18A4B5F40AA4E50A"
 				type: "checkmark"
@@ -38,6 +46,44 @@
 		{
 			dependencies: ["26FC07744D39F5DD"]
 			id: "2BC0300A52E397DF"
+			rewards: [{
+				id: "5261B3A2301CAAEE"
+				item: {
+					components: {
+						"mekanism:energy": {
+							energy_containers: [L;9223372036854775807L]
+						}
+						"mekanism:side_config": {
+							config: {
+								energy: {
+									eject: 1b
+									side: {
+										back: "output"
+										bottom: "output"
+										front: "output"
+										left: "output"
+										right: "output"
+										top: "output"
+									}
+								}
+								items: {
+									side: {
+										back: "input"
+										bottom: "input"
+										front: "output"
+										left: "input"
+										right: "input"
+										top: "input"
+									}
+								}
+							}
+						}
+					}
+					count: 1
+					id: "mekanism:creative_energy_cube"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "21B2BE92F70D70A2"
@@ -96,6 +142,14 @@
 		{
 			dependencies: ["26F39F803F9593E0"]
 			id: "26FC07744D39F5DD"
+			rewards: [{
+				id: "565B264DB0D4DFD8"
+				item: {
+					count: 1
+					id: "ae2:creative_energy_cell"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "22413ABCC431BB9B"
@@ -117,6 +171,19 @@
 		}
 		{
 			id: "26F39F803F9593E0"
+			rewards: [{
+				id: "7F9443B781CABD25"
+				item: {
+					components: {
+						"mekanism:energy": {
+							energy_containers: [L;256000000L]
+						}
+					}
+					count: 1
+					id: "mekanism:ultimate_energy_cube"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0D196EF8DF032719"
@@ -139,6 +206,14 @@
 		{
 			dependencies: ["07D0D7727E851045"]
 			id: "78436445AD8A5388"
+			rewards: [{
+				id: "7A877B026167BF07"
+				item: {
+					count: 1
+					id: "enchantinginfuser:advanced_enchanting_infuser"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "586F6FB3A6BD8B62"

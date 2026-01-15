@@ -25,16 +25,20 @@ file = "config/almostunified/unification/materials.json"
 hash = "b35a288d808e19f4a2bf68eb1854bf97a9777e08895a0c139909ff0e3b103290"
 
 [[files]]
-file = "config/apotheosis/apothic_attributes.cfg"
-hash = "24618494f80e6e691628aaf2ecb7bb758ac5091204fc6696f0fddbc4378f9d14"
-
-[[files]]
 file = "config/ars_nouveau-client.toml"
 hash = "835a6dfb623e5755574cefff615e98b04a2ad716440973cf51598265809681f7"
 
 [[files]]
 file = "config/ars_nouveau-common.toml"
 hash = "b1a7e267eac38e5dab7a225798f854333eb45a405e1caee6e895af1cc51b006f"
+
+[[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "2208048b5da5e3f0c07a97608e2fbf2e04447f131c1daf9221abcacb92472564"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "ff523541116643ed62ea60c3eb73208791e63028ca512308c2fc0692acb76b2f"
 
 [[files]]
 file = "config/fancymenu/assets/icon.png"
@@ -106,7 +110,7 @@ hash = "0764a582b2b37b01d2c58c0ffaf473b7fe194d9c15a1d7c54ff166c3e220f423"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goals.snbt"
-hash = "0ccf11466e7c8647c5437a3278f8bf113c72668eedcb6968b0f3fe6664d70480"
+hash = "046391b895085d0ac787febd14aa5fb1e8594cd364588be98b3b34e058326fae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_foregoing.snbt"
@@ -157,6 +161,10 @@ file = "config/ftbquests/quests/data.snbt"
 hash = "d7dd511fa89cc9066374f537d8e9259d6caff8fe7db0a0a04db3af393100e0a4"
 
 [[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "9165656e3beb23f4570c6c8655efc984ae85c8a723b501f00883ad04c512aae3"
+
+[[files]]
 file = "config/modernfix-mixins.properties"
 hash = "6fec6c4649aa10fea825973af34f2ca68812eaa847241d861da3f7fc0203bc45"
 
@@ -165,12 +173,8 @@ file = "config/oritech-config.json5"
 hash = "8d658b1da040f6ccd0291e61965e5eabcaebc2bef4616e3f8ac60c059446f7ea"
 
 [[files]]
-file = "config/silentgear-client.toml"
-hash = "eddf28a0e0d6c1027054eb40c290adc4be61ea6b40ca503094b6a40c444ab5ce"
-
-[[files]]
-file = "config/silentgear-common.toml"
-hash = "4049e021f0028db92b268093fce8b34425c391e264b6c04b5bbc3f0436aaeb39"
+file = "config/twilightforest-common.toml"
+hash = "79df1e9730257c4e805c23ede280510a939ffd8ac2a9802617b41866caa227ef"
 
 [[files]]
 file = "icon.png"
@@ -357,8 +361,16 @@ file = "kubejs/data/xycraft_world/neoforge/biome_modifier/ore_aluminum.json"
 hash = "3367bf330abe76375c6367e37b144e1990154206688af56bdd8ca17005f5c9f7"
 
 [[files]]
-file = "kubejs/server_scripts/unification/recipes.js"
+file = "kubejs/server_scripts/pack/removed_recipes.js"
+hash = "2d71069a2385ccf8398eb05789818faea2e28de90719a11c66557d42365130c5"
+
+[[files]]
+file = "kubejs/server_scripts/unification/boat.js"
 hash = "84cd3801dbf3aac139bec1385a2ddad8163768077e85b381c03d271bda716fe5"
+
+[[files]]
+file = "kubejs/server_scripts/unification/gear.js"
+hash = "a0a953531fde966f7a88f07dcc481e3d388f5d30c7c722a59afcfd3e915ea68b"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -380,13 +392,13 @@ hash = "a15f3ab51e3a138c7ea0ff93513b09d5cda22418ca83a14eb09ab38ca0945c3d"
 metafile = true
 
 [[files]]
-file = "mods/advancedae.pw.toml"
-hash = "f3d4366566b5eaad82deff34603aa091138ba30a5468eabdc1533cf14f8f9eb1"
+file = "mods/advanced-loot-info.pw.toml"
+hash = "52c3631a1fd0ebac757a5bf1961f48c55d57ddfdfe21881a328d9d080b5f3235"
 metafile = true
 
 [[files]]
-file = "mods/ae2-jei-integration.pw.toml"
-hash = "0794a45bf4c6cf8c17aebca641c306a7a25334ecb654f959c55ab2c3e81bddd7"
+file = "mods/advancedae.pw.toml"
+hash = "f3d4366566b5eaad82deff34603aa091138ba30a5468eabdc1533cf14f8f9eb1"
 metafile = true
 
 [[files]]
@@ -405,11 +417,6 @@ hash = "59c9a1f969edd0ba1da9ba5ad6975951513225d0304a692c3d4c862e2360940c"
 metafile = true
 
 [[files]]
-file = "mods/akashic-tome.pw.toml"
-hash = "0d2c4b8cda4d14deb8c4076f01cac447fddf4eb09057baf9d1926b290f05b9f8"
-metafile = true
-
-[[files]]
 file = "mods/alltheleaks.pw.toml"
 hash = "5525cfe500a324b4415516770d584eab9b0f6ca64286c55547b5403e76f63b3b"
 metafile = true
@@ -422,11 +429,6 @@ metafile = true
 [[files]]
 file = "mods/amplified-nether.pw.toml"
 hash = "3a75037856d0d60ab74de3b090d4be92574c1f49b6f3b8aa853fad49a03c9c33"
-metafile = true
-
-[[files]]
-file = "mods/apothic-attributes.pw.toml"
-hash = "014ee07aad95d234a4be89ab018d7cc72b9b41999bf0d5f45de11b509a10bd5e"
 metafile = true
 
 [[files]]
@@ -640,8 +642,18 @@ hash = "8c005df378de51dabe962c94e67dc4ce8feb38f30c008cfbcc3ed58ea1b0e15a"
 metafile = true
 
 [[files]]
+file = "mods/default-options.pw.toml"
+hash = "539513ed35cebfaa099397dde2d1936d38489c8685e96a902211f60cecee82c4"
+metafile = true
+
+[[files]]
 file = "mods/dungeon-crawl.pw.toml"
 hash = "589e6549cfe4f211abd2829fab1d00d9906a72d22b96f0fdb7e11fbb277ac1a1"
+metafile = true
+
+[[files]]
+file = "mods/durability-tooltip.pw.toml"
+hash = "13af7707844b2af1b04c8e95ad86016cd45e89a8d10b9a6aba1caee55e6991fe"
 metafile = true
 
 [[files]]
@@ -652,6 +664,16 @@ metafile = true
 [[files]]
 file = "mods/easy-magic.pw.toml"
 hash = "efce6a511bf4a60c64fe082fd183c9cd693861fb79413ba540cb1053ff562191"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "1fc8ab07ea6f6abf5252a680f4ee72d7feaa652bc6b17214b1ddc5f5fe4c5d6d"
+metafile = true
+
+[[files]]
+file = "mods/enchanting-infuser.pw.toml"
+hash = "3e8a9ec415629e8eb74f8755b62cc9551fe2411ea14664507f865b26987c67c9"
 metafile = true
 
 [[files]]
@@ -702,6 +724,11 @@ metafile = true
 [[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "35bad9f01671b5b4284ad547dab6635b2a029980c88d82007690e9232a5cb420"
+metafile = true
+
+[[files]]
+file = "mods/extra-mod-integrations.pw.toml"
+hash = "2acfb5ef4452508a69d1e1054fb318ce6df1f16afbbca396b8dc3199b4ba9ac6"
 metafile = true
 
 [[files]]
@@ -907,11 +934,6 @@ metafile = true
 [[files]]
 file = "mods/just-enough-mekanism-multiblocks.pw.toml"
 hash = "74021b36457eb31ff79c6dd0974b1d624c15fec5416833273b4f7a621946270f"
-metafile = true
-
-[[files]]
-file = "mods/just-enough-resources-jer.pw.toml"
-hash = "f61a3526d323d232fbac74dedb5d89e07f45981db1c5a705c66dbe5da7507a68"
 metafile = true
 
 [[files]]
@@ -1300,16 +1322,6 @@ hash = "f8cff4c66e5e30ef5001f0f56ff1c0511d96c2be42f79cbd68bda7c20874f93d"
 metafile = true
 
 [[files]]
-file = "mods/silent-gear.pw.toml"
-hash = "fd0fdb1d1acd8b582c5e3ef75877952d7b78f8b6453bb94dba2f68bac60c1017"
-metafile = true
-
-[[files]]
-file = "mods/silent-lib.pw.toml"
-hash = "40ecf884f979abc0c35c9674aa56822eb922ce63dc1ddfd1303076ccab0a434a"
-metafile = true
-
-[[files]]
 file = "mods/simply-light.pw.toml"
 hash = "64faee9ca0fb7655cf90fde3e5abc93f38f43faf4fb3c6dd328ca90ce764c247"
 metafile = true
@@ -1347,11 +1359,6 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
-metafile = true
-
-[[files]]
-file = "mods/super-factory-manager.pw.toml"
-hash = "e2931595b00df922067337d0a7426ba9faee418e1adf2fa31046b768416190f8"
 metafile = true
 
 [[files]]
