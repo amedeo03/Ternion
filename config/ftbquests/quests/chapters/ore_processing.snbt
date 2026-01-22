@@ -1,0 +1,73 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ore_processing"
+	group: "7065D49BD275E20B"
+	icon: {
+		id: "minecraft:diamond"
+	}
+	id: "43157FCCBE9CD5D5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "16291F2DF75C6779"
+			tasks: [{
+				id: "2912E41A3321442B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:pickaxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "23CD2643DDC9ABF6"
+			tasks: [{
+				id: "5BCDB1B9D11E3B89"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "595F2C4BBD00818A"
+			tasks: [{
+				id: "134A1566CD2DDA5A"
+				item: { count: 1, id: "mininggadgets:mininggadget_simple" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "20C8734158DC28C5"
+			tasks: [{
+				id: "742458ED747359ED"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "009FE23FF7119CF8"
+			tasks: [{
+				id: "65AE31BC7B1F861F"
+				item: { count: 1, id: "occultism:miner_foliot_unspecialized" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "096A688343275270"
+			tasks: [{
+				id: "42BFF8B89AC370BF"
+				item: { count: 1, id: "rftoolsbuilder:builder" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+	]
+}

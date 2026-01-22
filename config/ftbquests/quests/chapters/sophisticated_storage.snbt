@@ -2,12 +2,12 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "sophisticated_storage"
-	group: "652219CFA168DABB"
+	group: "7065D49BD275E20B"
 	icon: {
 		id: "sophisticatedbackpacks:backpack"
 	}
 	id: "4CA21BF0DFE3872A"
-	order_index: 0
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -351,6 +351,49 @@
 			}]
 			x: -2.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["6B1EA93D39CFAEDF"]
+			id: "0823E10082B70957"
+			tasks: [{
+				id: "23EA2C98B0088F0C"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6B1EA93D39CFAEDF"]
+			id: "52792DDE29F65191"
+			tasks: [{
+				id: "3B6C05189F3CE4BB"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6B1EA93D39CFAEDF"]
+			id: "7FA70B5AB5966C11"
+			tasks: [{
+				id: "70827A6E897A089C"
+				item: { count: 1, id: "occultism:storage_controller_base" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6B1EA93D39CFAEDF"]
+			id: "56ABD0C1F5AEFF5C"
+			tasks: [{
+				id: "19FEF9DEA3CF86D1"
+				item: { count: 1, id: "rftoolsstorage:storage_scanner" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
 		}
 	]
 }

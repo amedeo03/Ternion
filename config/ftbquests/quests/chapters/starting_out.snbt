@@ -74,7 +74,7 @@
 				id: "59853B0B80876E8C"
 				type: "checkmark"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: -4.0d
 		}
 		{
@@ -89,10 +89,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"22FF31C5097675E0"
-				"299103208123D8B5"
-			]
+			dependencies: ["22FF31C5097675E0"]
 			dependency_requirement: "one_started"
 			id: "7C83B3FD14BEBDF0"
 			tasks: [{
@@ -100,29 +97,8 @@
 				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: -2.0d
-		}
-		{
-			dependencies: ["3FC88B7AF2AEDFC1"]
-			id: "2C83C90F815EE30B"
-			tasks: [{
-				id: "4726E47293DA788F"
-				item: { count: 1, id: "silentgear:blueprint_paper" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["2C83C90F815EE30B"]
-			id: "74C8C11503EE5BAF"
-			tasks: [{
-				id: "6EFA6869CE45137B"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 4.0d
 		}
 		{
 			dependencies: ["3FC88B7AF2AEDFC1"]
@@ -199,7 +175,7 @@
 				item: { count: 1, id: "ironfurnaces:iron_furnace" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -210,7 +186,7 @@
 				item: { count: 1, id: "ironfurnaces:augment_generator" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
@@ -220,7 +196,7 @@
 				id: "73094F2B2EFE67E6"
 				type: "checkmark"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
@@ -346,29 +322,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["22FF31C5097675E0"]
-			id: "299103208123D8B5"
-			tasks: [
-				{
-					id: "6212272D34DF3A40"
-					item: { count: 1, id: "silentgear:sinew" }
-					type: "item"
-				}
-				{
-					id: "7F24B0E891D53654"
-					item: { count: 1, id: "silentgear:dried_sinew" }
-					type: "item"
-				}
-				{
-					id: "7119AACFB20E14F5"
-					item: { count: 1, id: "silentgear:sinew_fiber" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["3FC88B7AF2AEDFC1"]
 			id: "04BF0446FE378E1C"
 			tasks: [{
@@ -376,8 +329,19 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(alltheores:ore_hammers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["3FC88B7AF2AEDFC1"]
+			id: "4E89202F1EEAAC64"
+			tasks: [{
+				id: "485D12ED6D3E3192"
+				item: { count: 1, id: "toolbelt:belt" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
 		}
 	]
 }

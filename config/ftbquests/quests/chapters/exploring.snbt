@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploring"
+	group: "7065D49BD275E20B"
+	icon: {
+		id: "minecraft:compass"
+	}
+	id: "7C7EE0F342D9799E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5229CBB43E19B37D"
+			tasks: [{
+				id: "4AAEDD7A20750C9E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5229CBB43E19B37D"]
+			id: "0F81AD37F0B09C3A"
+			tasks: [{
+				id: "5EE3150CB6E7D071"
+				item: { count: 1, id: "minecraft:compass" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0F81AD37F0B09C3A"]
+			id: "533BA20C80074AAD"
+			tasks: [{
+				id: "3785F98EF37F170B"
+				item: { count: 1, id: "minecraft:recovery_compass" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0F81AD37F0B09C3A"]
+			id: "3A23A4A17E733232"
+			tasks: [{
+				id: "5120CE3342DFCE0F"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F81AD37F0B09C3A"]
+			id: "253E6B752E32CA9F"
+			tasks: [{
+				id: "10BD7548D55EEA83"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["60D203E4686E5CBB"]
+			id: "2469DB4DAF4BDB08"
+			tasks: [{
+				id: "399BFFBBB5338224"
+				item: { count: 1, id: "immersive_aircraft:hull" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5229CBB43E19B37D"]
+			id: "60D203E4686E5CBB"
+			tasks: [{
+				id: "6BD843903A753500"
+				item: { count: 1, id: "minecraft:feather" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60D203E4686E5CBB"]
+			id: "60E1A5227B1BDD59"
+			tasks: [{
+				id: "3F10439C09BCFF8C"
+				item: { components: { "ironjetpacks:jetpack_id": "ironjetpacks:wood" }, count: 1, id: "ironjetpacks:jetpack" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60D203E4686E5CBB"]
+			id: "1273EB92671CD6BE"
+			tasks: [{
+				id: "1F3597BE0434A2A1"
+				item: { count: 1, id: "mekanism:jetpack" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["60D203E4686E5CBB"]
+			id: "1D31208D5C247F50"
+			tasks: [{
+				id: "5A5E86F7A38E916A"
+				item: { count: 1, id: "oritech:jetpack" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1D31208D5C247F50"]
+			id: "3F2858B3B9630689"
+			tasks: [{
+				id: "7F85950D1D6B61DA"
+				item: { count: 1, id: "oritech:exo_jetpack" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1273EB92671CD6BE"]
+			id: "1EC3C1FA5273BE56"
+			tasks: [{
+				id: "211CCF7D3D1BC619"
+				item: { count: 1, id: "mekanism:jetpack_armored" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5229CBB43E19B37D"]
+			id: "146A5F46B1C76E80"
+			tasks: [{
+				id: "2947D01976586BB8"
+				item: { count: 1, id: "mekanism:free_runners" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["146A5F46B1C76E80"]
+			id: "0BEC623B0395ECB1"
+			tasks: [{
+				id: "3A7E21A1D57E8516"
+				item: { count: 1, id: "mekanism:free_runners_armored" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+}

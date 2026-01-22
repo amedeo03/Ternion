@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_aircrafts"
+	group: "652219CFA168DABB"
+	icon: {
+		id: "immersive_aircraft:enhanced_propeller"
+	}
+	id: "4D15AD4800604848"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "3E46B4024770BBFD"
+		tasks: [{
+			id: "24B0EF619EB37AC0"
+			item: { count: 1, id: "immersive_aircraft:hull" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

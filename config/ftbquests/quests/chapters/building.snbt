@@ -1,0 +1,89 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "building"
+	group: "7065D49BD275E20B"
+	icon: {
+		id: "minecraft:oak_door"
+	}
+	id: "3960D065A0BEC6F6"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3929E655E5B54270"
+			tasks: [{
+				id: "2E71DF03287C434F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3929E655E5B54270"]
+			id: "7EBF05C10FC40320"
+			tasks: [{
+				id: "6518618284ED3467"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(constructionstick:construction_sticks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3929E655E5B54270"]
+			id: "7626B9EE153D2312"
+			tasks: [{
+				id: "55E87F605158C101"
+				item: { count: 1, id: "chisel:chisel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3929E655E5B54270"]
+			id: "24BDFE3A24DE3B1F"
+			tasks: [{
+				id: "5B56A436E973DE5A"
+				item: { count: 1, id: "buildinggadgets2:gadget_building" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3929E655E5B54270"]
+			id: "1EDE1310D600CA38"
+			tasks: [{
+				id: "7B8D3EEE3639D50D"
+				item: { count: 1, id: "framedblocks:framed_cube" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3929E655E5B54270"]
+			id: "6D0169EC62A89605"
+			tasks: [{
+				id: "2C6668038715E0FF"
+				item: { count: 1, id: "handcrafted:hammer" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3929E655E5B54270"]
+			id: "27E7A4EFB55A5029"
+			tasks: [{
+				id: "3C265DE966DD2BBD"
+				item: { count: 1, id: "simplylight:illuminant_block_on" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+}

@@ -1,0 +1,83 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "item_logistics"
+	group: "7065D49BD275E20B"
+	icon: {
+		id: "pipez:item_pipe"
+	}
+	id: "2F4856AFB8D1E319"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7E6B19CAEF4128C0"
+			tasks: [{
+				id: "7730E9E84A560EE7"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5E8B4F1550B6A73B"
+			tasks: [{
+				id: "14E0A5EFE9B8CAD4"
+				item: { count: 1, id: "pipez:item_pipe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "127EC3A687E1C45C"
+			tasks: [{
+				id: "24EBD5BAB7FC9EBE"
+				item: { count: 1, id: "oritech:item_pipe" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "6DABCCFCBB78A121"
+			tasks: [{
+				id: "421D11122CEB4075"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/wrench)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "61651E1B99D25A68"
+			tasks: [{
+				id: "4912F16083E71EF5"
+				item: { count: 1, id: "mekanism:basic_logistical_transporter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "567B5FE3B3ED75E5"
+			tasks: [{
+				id: "27F53DAA64A3D3E8"
+				item: { count: 1, id: "modularrouters:modular_router" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "795773D3BD58CDD2"
+			tasks: [{
+				id: "1E5E80895B116F43"
+				item: { count: 1, id: "laserio:laser_node" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+	]
+}

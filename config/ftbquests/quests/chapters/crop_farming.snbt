@@ -1,0 +1,74 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crop_farming"
+	group: "7065D49BD275E20B"
+	icon: {
+		id: "minecraft:wheat"
+	}
+	id: "1B91F921204272C1"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "363E167033B01F58"
+			tasks: [{
+				id: "35C257256DD931F9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0680CD13F92CDB5D"]
+			id: "2C6F0DF878ED44FD"
+			tasks: [{
+				id: "04D054B8147BB569"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0680CD13F92CDB5D"]
+			id: "6F296DFCB2507703"
+			tasks: [
+				{
+					id: "2D119CD16624B767"
+					item: { count: 1, id: "justdirethings:goosoil_tier1" }
+					type: "item"
+				}
+				{
+					id: "07C6628EBB1A18B6"
+					item: { count: 1, id: "justdirethings:ferricore_hoe" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["363E167033B01F58"]
+			id: "0680CD13F92CDB5D"
+			tasks: [{
+				id: "49634B53BB344446"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0680CD13F92CDB5D"]
+			id: "7AC32961DA1D8669"
+			tasks: [{
+				id: "600F78E9AE3FB769"
+				item: { count: 1, id: "cookingforblockheads:white_oven" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+}

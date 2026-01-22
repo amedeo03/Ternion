@@ -9,15 +9,80 @@
 	id: "03C21EC3F8A57ED5"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "26645766829B807B"
-		shape: "hexagon"
-		size: 3.0d
-		tasks: [{
-			id: "4D3E1C7A279B3C26"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "26645766829B807B"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "4D3E1C7A279B3C26"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "49CA55ECB0EAE343"
+			tasks: [{
+				id: "34B96A831AA24A52"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "1B6A790CB2F8EB4E"
+			tasks: [{
+				id: "3F9A437BBCFDBF15"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "14ECFD19C218FC38"
+			tasks: [{
+				id: "65C6620A7EFC4363"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "6B9139D7BF5760A8"
+			tasks: [{
+				id: "410F56FFC4A86C88"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "4E173522C436B626"
+			tasks: [{
+				id: "2415AB0EB0118092"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "415BF5607E028A64"
+			tasks: [{
+				id: "7DBC5ADA121870E4"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "5C4E28C1B504AE8E"
+			tasks: [{
+				id: "71DB86EBE0AB6815"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+	]
 }

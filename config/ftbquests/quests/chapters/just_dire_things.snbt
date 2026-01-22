@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "just_dire_things"
+	group: "652219CFA168DABB"
+	icon: {
+		id: "justdirethings:paradoxmachine"
+	}
+	id: "12DE5A35106B635F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "66D2F3FC673CAE34"
+		tasks: [{
+			id: "1DF38BB278D4B5AB"
+			item: { count: 1, id: "justdirethings:gooblock_tier1" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

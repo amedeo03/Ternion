@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "xycraft"
+	group: "652219CFA168DABB"
+	icon: {
+		id: "xycraft_world:aluminum_bricks"
+	}
+	id: "28A6767F4D7F2230"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "7273C74030AFD33D"
+		tasks: [{
+			id: "243D4E7F25BADA48"
+			item: { count: 1, id: "alltheores:aluminum_ingot" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

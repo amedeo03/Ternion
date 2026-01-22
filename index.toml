@@ -98,23 +98,51 @@ hash = "a187647166246084b0ffb1d94f927ac65bd034b808a3aa53597b944d79955af6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
-hash = "ff9145ede79645b9c730fce60ecbee1aabb8a24c51899cc0a3a5840d33aa25a5"
+hash = "e72135a82628e773f3e3abdfd0ed4a4200bb2c2933b286998c585b97331689c1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
 hash = "e8b690044aee4121139d66d156286d59acd99ba79063c5f3c05f8d188cbae4f0"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/building.snbt"
+hash = "edcf21d12d9b556b828ea5f3aab376aebfb446008daba24f54c4664450d96aad"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/cataclysm.snbt"
 hash = "0764a582b2b37b01d2c58c0ffaf473b7fe194d9c15a1d7c54ff166c3e220f423"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/crop_farming.snbt"
+hash = "fb20e6e1ff6a76915a0dddd42c1e6b2eff5de194367a30cf83b3ec7cf4e8723f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/exploring.snbt"
+hash = "6afbfa0829db0112a8fa7bfae4f80c380f3181c9e186916c154a2e4dfa9fe646"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/goals.snbt"
-hash = "046391b895085d0ac787febd14aa5fb1e8594cd364588be98b3b34e058326fae"
+hash = "7be5595d6373e7e658b0eea5a84ad07cba6c71faf9d392bef894a17db0ed9a20"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/hostile_neural_networks.snbt"
+hash = "a80e1cecd000d8c6bde177a2a7748e8e3099b243695c7f7f3607a2a85e13e921"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/immersive_aircrafts.snbt"
+hash = "938c7138fce882f5e22b122ca4028f033851dbe68e86d83005b25d51ba365b15"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_foregoing.snbt"
 hash = "ab0d51281d7aa85109fc36a31f1826dcf073c8bb1b8ffff5225d58b3780ffd7e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/item_logistics.snbt"
+hash = "5a7f18aa984117ec957decfcba8a1f8b88aaa28bf0fd79614f87b295eb24104b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/just_dire_things.snbt"
+hash = "97b749e604dd0f56836c48645f7c7650b947a70e5fa59dc2c3f07d8096f00464"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/malum.snbt"
@@ -125,8 +153,16 @@ file = "config/ftbquests/quests/chapters/mekanism.snbt"
 hash = "17e8d9a614186b64ce61cd442d232e460cfa58bb1d315b0bdcc68b7f1022e6a6"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/mob_farming.snbt"
+hash = "523f9657fce94267f34eb29d98320a70a99012861e8392ed65ede4a0a2bb520b"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/occultism.snbt"
 hash = "5b1bd752828b42e2dd9e632b0254fdb259570ef9c8b00fc862f6bcf7e0a967da"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/ore_processing.snbt"
+hash = "80d07566c5b7e739439f10f0d0fc6fd535ca32f4193db3b2da3fb201fd74e69f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/oritech.snbt"
@@ -134,15 +170,15 @@ hash = "79ade6f59eafb97f4ed9625d3c2c4cec1df19cccb358fa4b69233ba0c469ce69"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/powah.snbt"
-hash = "d10ce502c72c4987993ad05b1106203b747f8650c3fdc39c5e707432bd961561"
+hash = "6b203a1f560b4f26e2689e0d8e65ea4374069c9e0925a3f2dac83aa38c82111f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sophisticated_storage.snbt"
-hash = "1ec4bead95c72c2d6b5127fcb8d62e54ac226a8e63f9ee4a5ea867c95ac0d32f"
+hash = "6b18322be8a2c4a801340a268683d80a0b24422aa76243311c5c05b66abbd4af"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/starting_out.snbt"
-hash = "e91ad2d1be92910223ef45b80ff33458b9c24567d63b671fa2977fc13ca5e94e"
+hash = "cb2836c59b0cbca6c723527aa68e7c534e9186d703ba8c3e3232443bb15f9df1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_aether.snbt"
@@ -154,7 +190,11 @@ hash = "844f4a4d2f0919bd799fa21ad3ebff2343e4053534ee10131e926290ca3bc226"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "2cce09ef453b3052e5c4554cb7c166cab4dcdf645b44e987cb957f1496507330"
+hash = "a895fb95ff0930ba4471dc12fdbd6c0fd4a4f1a0adc86494000de4477741c3d8"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/xycraft.snbt"
+hash = "d42e14b18490bc82e9cb0af8f5bd439c59549adc92c048201e7df0b677dce1d9"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -162,7 +202,7 @@ hash = "d7dd511fa89cc9066374f537d8e9259d6caff8fe7db0a0a04db3af393100e0a4"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "9165656e3beb23f4570c6c8655efc984ae85c8a723b501f00883ad04c512aae3"
+hash = "0f1f4fa054c740f935ed8ca4dfd9979f114e9a2deb0d186a536813f25e31e6b3"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
@@ -393,7 +433,7 @@ metafile = true
 
 [[files]]
 file = "mods/advanced-loot-info.pw.toml"
-hash = "52c3631a1fd0ebac757a5bf1961f48c55d57ddfdfe21881a328d9d080b5f3235"
+hash = "ccf66aacbd22ace084e73c8c130f63720e865e8463a1dc71aae6d4dbdda21bbc"
 metafile = true
 
 [[files]]
@@ -527,11 +567,6 @@ hash = "893fdff8f8874afad2fbf8ca68818cf3105759ff4286d01bcfb0cf2451b21061"
 metafile = true
 
 [[files]]
-file = "mods/chipped.pw.toml"
-hash = "3024466ae43de66612dc5ec4cfe5b3a273f71cee29fc6940308798a817d561b6"
-metafile = true
-
-[[files]]
 file = "mods/chisel-chipped-integration.pw.toml"
 hash = "befe0dcd8d227d3a18f07a89c66f9af0e8e9e74af8566966d2f642689f332b16"
 metafile = true
@@ -594,6 +629,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "42ffb6f5835250003da6ca3667ff751709ea295faee43b49c365b0f6c1e8f4d8"
+metafile = true
+
+[[files]]
+file = "mods/cooking-for-blockheads.pw.toml"
+hash = "ecc7e6953140862685982ae0ed9c83b4b73c7a73497973548bdcc5c2545ee589"
 metafile = true
 
 [[files]]
@@ -718,7 +758,7 @@ metafile = true
 
 [[files]]
 file = "mods/ex-pattern-provider.pw.toml"
-hash = "292ae48a1767e3c2d1a064c5dff32794f011fd2ac2fcd443521c384ca6189e49"
+hash = "11933e1fa97afc705e60be17447ffc32c736e544ee7a4ce3ecc7910949cac1f7"
 metafile = true
 
 [[files]]
@@ -928,7 +968,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-dire-things.pw.toml"
-hash = "78b0a0fcbbde2c26d2f59e7ce817bd1f8063342e40b112aa82e1b70b7180f716"
+hash = "fd6d935a0145a7992c3ba365c66f655c65587c9c812db55adab264144e11ce3f"
 metafile = true
 
 [[files]]
@@ -948,7 +988,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "7fbe3225c134e823a07f3aecedace39fe866f327671ecca928f134399b94008d"
+hash = "3c13beafeb69d23d2a43805cfa3d79b7e458cfb8f9ce603075b84d95da630d4b"
 metafile = true
 
 [[files]]
@@ -998,7 +1038,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "f8eda13db38679d458c4906a58e8ab9fc92445f49b1b3a7ed546a5aa84bcefdf"
+hash = "a81a038a91f8106f5f9289edbbe5ac4fa6c128267800fa52f301961c2b3ec379"
 metafile = true
 
 [[files]]
@@ -1008,12 +1048,12 @@ metafile = true
 
 [[files]]
 file = "mods/lukis-crazy-chambers.pw.toml"
-hash = "b50994d77b8951f210911a98e415a9357a1043c6c3a3aae22fbd8877e483e018"
+hash = "1e39f9c1cdcd35a2edacc768cf1b987cd6266b17b649d9ee8f28fbe18f3b5ee6"
 metafile = true
 
 [[files]]
 file = "mods/lukis-grand-capitals.pw.toml"
-hash = "04cf03daaecfc55b6b8385b52f46f76886dcc132c3976dd573b4ac3904591462"
+hash = "13ffe9265e50d2bfe9b97c3fabb9c1c8893430091207c89acf21dc8946520e14"
 metafile = true
 
 [[files]]
@@ -1173,7 +1213,7 @@ metafile = true
 
 [[files]]
 file = "mods/occultism.pw.toml"
-hash = "5fe4306f378ab5b6380f5e859be7c8a233a4bf200021feffb77c614efae6f639"
+hash = "39f0dcf530f47d6a2caa0a490ede263cfdc7ecf6b0e4a68cd7f36eea84ebab05"
 metafile = true
 
 [[files]]
@@ -1188,7 +1228,7 @@ metafile = true
 
 [[files]]
 file = "mods/oritech.pw.toml"
-hash = "54a0a1c343fb4cc5a2fcaa804406013ad13e93097fabc480d3879d3c54730ae5"
+hash = "876164a4cf7aa03ea49a5210397a4aaa8fc5138d158f12280016e2cd93a34172"
 metafile = true
 
 [[files]]
@@ -1233,7 +1273,7 @@ metafile = true
 
 [[files]]
 file = "mods/powah-rearchitected.pw.toml"
-hash = "fa911bce125195f9c0621bbc6b4fc691691a3d9d6113092d5c989b9d9e020ff5"
+hash = "10ebd1464d46e82fb7dc2f341d5b675e569633db4e8ff8286cdc529119d5f2e6"
 metafile = true
 
 [[files]]
@@ -1287,11 +1327,6 @@ hash = "d781167f93a3fdfd8ab230e0ce1e8f928918a183935f047bc1b25f2f5ca3dfb3"
 metafile = true
 
 [[files]]
-file = "mods/rftools-utility.pw.toml"
-hash = "11a108752d61216d4b57aa13a16fa82319f711415bc2c94c76c2212bfc9c8d72"
-metafile = true
-
-[[files]]
 file = "mods/rhino.pw.toml"
 hash = "75ff68dd0bfb30f2ff97f170ffbb74d5b6aaa791416c4a0559d09ac8778561ba"
 metafile = true
@@ -1313,7 +1348,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "e4970130bf7811cc3bde9a4179702e3a8553018d5d1458d44adde4f5d1c001f7"
+hash = "0fbfe6e3e5091cc80f06a6e029619307f8ab6e0442bf0cc750edd1e854108161"
 metafile = true
 
 [[files]]
@@ -1343,17 +1378,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "237516942e8b18e0a74fefc7ef862bfc3ea4206bc9c07d7e69066ba01d10ca65"
+hash = "d885c5a1e2c68ce68522ba95e6ddff9fd4ef76d16b3012374be0574081914690"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "9955fd870c21d85fbff1442c5ed6b9922b1bc88a57ff13fe3a225c9dfe45e2ca"
+hash = "2459c0c16e25260ea522cab5ff989ed848e4b985c04fcccb88bc48043d23c544"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "8fbd6269568fb1e3debae3d6247d851f08f650cab5e982a80cfc3ba3b2ca1002"
+hash = "d45a1931a4eb0dacd96a2e68a3eb78759ffc2be344136e0ecfdb60b8a642300c"
 metafile = true
 
 [[files]]
