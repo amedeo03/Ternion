@@ -401,6 +401,18 @@ file = "kubejs/data/oritech/worldgen/configured_feature/resource_node_rare.json"
 hash = "662b3520a9b31eabe14719515a7cd8f66b946aed749de6a5aa12310d4513bb0b"
 
 [[files]]
+file = "kubejs/data/oritech/worldgen/placed_feature/resource_node_common.json"
+hash = "318cac4e098c8e4ca03a8aa6f74b00fb291dfdb9fc1f64b91c228c5272742153"
+
+[[files]]
+file = "kubejs/data/oritech/worldgen/placed_feature/resource_node_other.json"
+hash = "5d0a6873b472764958a2c73a8e745f4e0b35155328187cbbb95f995de7274ce5"
+
+[[files]]
+file = "kubejs/data/oritech/worldgen/placed_feature/resource_node_rare.json"
+hash = "c036e7910c2ffc6b7753d19474abd4c310ed524a9c94ce8e86105a1cfcd47d21"
+
+[[files]]
 file = "kubejs/data/terralith/function/toast.mcfunction"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
