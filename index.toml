@@ -401,6 +401,10 @@ file = "kubejs/data/oritech/worldgen/configured_feature/resource_node_rare.json"
 hash = "662b3520a9b31eabe14719515a7cd8f66b946aed749de6a5aa12310d4513bb0b"
 
 [[files]]
+file = "kubejs/data/terralith/function/toast.mcfunction"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "kubejs/data/xycraft_world/neoforge/biome_modifier/ore_aluminum.json"
 hash = "3367bf330abe76375c6367e37b144e1990154206688af56bdd8ca17005f5c9f7"
 
