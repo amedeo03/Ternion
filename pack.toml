@@ -1,12 +1,12 @@
 name = "Ternion"
 author = "Betelgeuse27"
-version = "0.1,0"
+version = "0.1.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "4437e51956d6e882034405ccf6fe25518a9e21a0c1041c77a8b8b9762dca092a"
+hash = "60472fb28235f5bd17d2a8539c828489ce15ca66d73e3ca2a87f2fa4c25e18d7"
 
 [versions]
 minecraft = "1.21.1"

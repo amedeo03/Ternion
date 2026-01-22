@@ -401,6 +401,14 @@ file = "kubejs/data/xycraft_world/neoforge/biome_modifier/ore_aluminum.json"
 hash = "3367bf330abe76375c6367e37b144e1990154206688af56bdd8ca17005f5c9f7"
 
 [[files]]
+file = "kubejs/server_scripts/conflicts/edited_recipes.js"
+hash = "f5ca542305bbe2303d3f51a84340962f0131c36e586a56db1831676f7fc15a07"
+
+[[files]]
+file = "kubejs/server_scripts/conflicts/removed_recipes.js"
+hash = "3488517031e123e6228694042b7bd6f1e98797a9a52f5f424c22d53f8164971b"
+
+[[files]]
 file = "kubejs/server_scripts/pack/removed_recipes.js"
 hash = "2d71069a2385ccf8398eb05789818faea2e28de90719a11c66557d42365130c5"
 
@@ -411,6 +419,18 @@ hash = "84cd3801dbf3aac139bec1385a2ddad8163768077e85b381c03d271bda716fe5"
 [[files]]
 file = "kubejs/server_scripts/unification/gear.js"
 hash = "a0a953531fde966f7a88f07dcc481e3d388f5d30c7c722a59afcfd3e915ea68b"
+
+[[files]]
+file = "kubejs/server_scripts/unification/hidden_items.js"
+hash = "1282e3507f675d8a63f6d5b81babd19525d3e7e78f58508079029898959614ef"
+
+[[files]]
+file = "kubejs/server_scripts/unification/ingredients.js"
+hash = "a872c0010df6052f7a5fa318478cfa934dec2f90efc01af474a00f01a4bbcb54"
+
+[[files]]
+file = "kubejs/server_scripts/unification/tags.js"
+hash = "f10bdcea078720b6e82d85a08faac8887c293cec6549f6bdc80391b5075020fd"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
