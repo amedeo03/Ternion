@@ -56,4 +56,30 @@ ServerEvents.recipes(ternion => {
         }
     )
     .id('cataclysm:chiseled_purpur_block')
+
+    ternion.shaped('aether:skyroot_bucket',
+        [
+            'X X',
+            ' X '
+        ],
+        {
+            X: 'aether:skyroot_log'
+        }
+    )
+    .id('aether:skyroot_bucket')
+
+    Color.DYE.forEach(color => {
+        let recipe_id = 'handcrafted:' + color + '_sheet'
+        let needed_input = 'minecraft:' + color + '_carpet'
+        ternion.remove({ id: recipe_id})
+        ternion.shaped('3x ' + recipe_id,
+        [
+            'XXX',
+        ],
+        {
+            X: needed_input
+        }
+    )
+    .id(recipe_id)
+    })
 })

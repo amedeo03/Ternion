@@ -213,6 +213,10 @@ file = "config/oritech-config.json5"
 hash = "8d658b1da040f6ccd0291e61965e5eabcaebc2bef4616e3f8ac60c059446f7ea"
 
 [[files]]
+file = "config/reliquary-common.toml"
+hash = "71d7fe68ab403ba11941a01ca4241aa5481bf044a4c777341364e6c40be9b390"
+
+[[files]]
 file = "config/twilightforest-common.toml"
 hash = "79df1e9730257c4e805c23ede280510a939ffd8ac2a9802617b41866caa227ef"
 
@@ -402,15 +406,19 @@ hash = "3367bf330abe76375c6367e37b144e1990154206688af56bdd8ca17005f5c9f7"
 
 [[files]]
 file = "kubejs/server_scripts/conflicts/edited_recipes.js"
-hash = "f5ca542305bbe2303d3f51a84340962f0131c36e586a56db1831676f7fc15a07"
+hash = "1f0c2a391d7b9f79285603865239e3a34b34661acff5c252cea99efd23786225"
 
 [[files]]
 file = "kubejs/server_scripts/conflicts/removed_recipes.js"
-hash = "3488517031e123e6228694042b7bd6f1e98797a9a52f5f424c22d53f8164971b"
+hash = "5fe9a3c05bd78859fb31e0d5082f3bdca62f72a23d50eedb11e75e4159a47cac"
 
 [[files]]
-file = "kubejs/server_scripts/pack/removed_recipes.js"
+file = "kubejs/server_scripts/pack/progression_tweaks.js"
 hash = "2d71069a2385ccf8398eb05789818faea2e28de90719a11c66557d42365130c5"
+
+[[files]]
+file = "kubejs/server_scripts/pack/tweaks.js"
+hash = "3c0048cbb025b527f7003b05856b1f827b886218d37749adc3d503bf4443aead"
 
 [[files]]
 file = "kubejs/server_scripts/unification/boat.js"
@@ -421,16 +429,16 @@ file = "kubejs/server_scripts/unification/gear.js"
 hash = "a0a953531fde966f7a88f07dcc481e3d388f5d30c7c722a59afcfd3e915ea68b"
 
 [[files]]
-file = "kubejs/server_scripts/unification/hidden_items.js"
-hash = "1282e3507f675d8a63f6d5b81babd19525d3e7e78f58508079029898959614ef"
+file = "kubejs/server_scripts/unification/ingredients.js"
+hash = "dc8b0509635b8cd64d57105775b7a52e93e4830621f2f911bbd3a3ba3397b305"
 
 [[files]]
-file = "kubejs/server_scripts/unification/ingredients.js"
-hash = "a872c0010df6052f7a5fa318478cfa934dec2f90efc01af474a00f01a4bbcb54"
+file = "kubejs/server_scripts/unification/removed_items.js"
+hash = "5d528e116e83abd8257158112a356a5630afe7e31208ddf1ddf6230ce86a320d"
 
 [[files]]
 file = "kubejs/server_scripts/unification/tags.js"
-hash = "f10bdcea078720b6e82d85a08faac8887c293cec6549f6bdc80391b5075020fd"
+hash = "6134c03389e08bdd115d976b50fc46b35760e2e2a4648addd047493b09b6a983"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

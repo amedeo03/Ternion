@@ -15,4 +15,10 @@ ServerEvents.recipes(ternion => {
         'minecraft:ender_pearl',
         '#c:ender_pearls'
     )
+
+    ternion.replaceInput( 
+        {input: 'aether:skyroot_stick'},
+        'aether:skyroot_stick',
+        '#c:rods/wooden'
+    )
 })
