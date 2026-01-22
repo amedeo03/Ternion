@@ -190,7 +190,7 @@ hash = "844f4a4d2f0919bd799fa21ad3ebff2343e4053534ee10131e926290ca3bc226"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/welcome.snbt"
-hash = "a895fb95ff0930ba4471dc12fdbd6c0fd4a4f1a0adc86494000de4477741c3d8"
+hash = "de5675812625118d07fc4f35b296898a46d2e19176b487910c9a51019fad34af"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/xycraft.snbt"
@@ -219,6 +219,10 @@ hash = "71d7fe68ab403ba11941a01ca4241aa5481bf044a4c777341364e6c40be9b390"
 [[files]]
 file = "config/twilightforest-common.toml"
 hash = "79df1e9730257c4e805c23ede280510a939ffd8ac2a9802617b41866caa227ef"
+
+[[files]]
+file = "config/wover/client.json"
+hash = "4fc7b0a8989c651ee3a6bee2a1f9003c0cd7131e8accbff4081cdad9315ac220"
 
 [[files]]
 file = "icon.png"
@@ -413,8 +417,8 @@ file = "kubejs/data/oritech/worldgen/placed_feature/resource_node_rare.json"
 hash = "c036e7910c2ffc6b7753d19474abd4c310ed524a9c94ce8e86105a1cfcd47d21"
 
 [[files]]
-file = "kubejs/data/terralith/function/toast.mcfunction"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+file = "kubejs/data/ru_expansion/worldgen/configure_features/mega_jungle_tree.json"
+hash = "ece1d0fcf72bf6a0a4b5e75a80c03655c2d9d22eeb22969e8af13037ac7ffe12"
 
 [[files]]
 file = "kubejs/data/xycraft_world/neoforge/biome_modifier/ore_aluminum.json"
@@ -511,11 +515,6 @@ hash = "afd9837f16b0b8fe16fe8788470334b7bb13d9c452f46a058d1a2c012f079adf"
 metafile = true
 
 [[files]]
-file = "mods/amplified-nether.pw.toml"
-hash = "3a75037856d0d60ab74de3b090d4be92574c1f49b6f3b8aa853fad49a03c9c33"
-metafile = true
-
-[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "4ca8b963965342aafdfe251e5306259eb9cf459d43e46d9695974dcff01465aa"
 metafile = true
@@ -561,11 +560,6 @@ hash = "132cf6e24275253f07d656b9f0719e4b9225d054ffaee70872c1f69a060a153c"
 metafile = true
 
 [[files]]
-file = "mods/ars-polymorphia.pw.toml"
-hash = "0b8a0117ded523876d15e861b537740bd385232185739dbb3f26cd41a3504a18"
-metafile = true
-
-[[files]]
 file = "mods/athena.pw.toml"
 hash = "e1599947a8d78f74c129a8420569bb2453b2ce76fdc76a7151093923ea8366c9"
 metafile = true
@@ -586,6 +580,11 @@ hash = "a0f52f47c27d6ccdbee89735e459ff955ba09cdf499ef42bc901f8426be75253"
 metafile = true
 
 [[files]]
+file = "mods/bclib-neoforge.pw.toml"
+hash = "1b5accaaab4e9c9f343c73064c2744792a32938aadf4bbadaf188f6f379fd2ac"
+metafile = true
+
+[[files]]
 file = "mods/better-advancements.pw.toml"
 hash = "bb2700ce31fc7cd121ecf07f106302303ee366b7573b77bbdd97eee955233cda"
 metafile = true
@@ -593,6 +592,16 @@ metafile = true
 [[files]]
 file = "mods/better-compatibility-checker.pw.toml"
 hash = "55fe1f1a0b72abf4b697b3e0d8f5449e590bb519d26a29e6eeac049161003a34"
+metafile = true
+
+[[files]]
+file = "mods/betterend-neoforge.pw.toml"
+hash = "38ffede3314cf74a3c3d3e8261d5b42805234eea418fabb902ab163c6e8ae2d6"
+metafile = true
+
+[[files]]
+file = "mods/betternether-neoforge.pw.toml"
+hash = "f847a821d637dad4b4760422b49f76856110ebe6e4a9b73762cf6b5d4dd48fd5"
 metafile = true
 
 [[files]]
@@ -683,11 +692,6 @@ metafile = true
 [[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "16e8dd4fab7436b972f80dd78e9468cde229a75c4ccbc51d834e89b6b6ddeff3"
-metafile = true
-
-[[files]]
-file = "mods/crash-assistant.pw.toml"
-hash = "f2b5f72cda84b07adc4db105d81c9c2bb3cebb119a85efe0a9cfdd62d0133101"
 metafile = true
 
 [[files]]
@@ -786,18 +790,8 @@ hash = "29fffe2f1d0f656de83ba0731233a20f664dc97d0b89918e609fc0b190a3fab1"
 metafile = true
 
 [[files]]
-file = "mods/enderscape.pw.toml"
-hash = "dd1d97bf0dbd163301b1c6677f36777c8684c58434b91b375ee0ef9fa7cc044a"
-metafile = true
-
-[[files]]
 file = "mods/entityculling.pw.toml"
 hash = "4c8454a265574253ae608448e14a1acf138b364cced8245c72e9c4b68fb52207"
-metafile = true
-
-[[files]]
-file = "mods/even-better-nether.pw.toml"
-hash = "4704d3dd8cd904577cbeeaaca9c30f93333af6a5f2c2476e197a7398b41153cf"
 metafile = true
 
 [[files]]
@@ -1101,6 +1095,16 @@ hash = "13ffe9265e50d2bfe9b97c3fabb9c1c8893430091207c89acf21dc8946520e14"
 metafile = true
 
 [[files]]
+file = "mods/lukis-strongholds.pw.toml"
+hash = "3ccc1f7b400eb222d01b1f389c2efcced996958570e8fdc5e0def6d56efeb0f6"
+metafile = true
+
+[[files]]
+file = "mods/lukis-woodland-mansions.pw.toml"
+hash = "30195663aa46907f6f3254fdd7db1ab5359e39d608abd61343902462c4ad819f"
+metafile = true
+
+[[files]]
 file = "mods/luminax.pw.toml"
 hash = "7dca27f7b07c71ceb69bd4dc4639e23abc23072c09bbae272718b952341ec344"
 metafile = true
@@ -1311,11 +1315,6 @@ hash = "8b725f1822c0feab9e51bef600f2ee6f4c26efbb55aa3ee9073a027f1f134202"
 metafile = true
 
 [[files]]
-file = "mods/polymorphic-energistics.pw.toml"
-hash = "330eae6dd751b70d4761f5fb556bc476f693549f3eb42ff7f441e1cd5bfe3cfb"
-metafile = true
-
-[[files]]
 file = "mods/powah-rearchitected.pw.toml"
 hash = "10ebd1464d46e82fb7dc2f341d5b675e569633db4e8ff8286cdc529119d5f2e6"
 metafile = true
@@ -1338,6 +1337,16 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "6a48780ffd4bc3b941f81232c84034aba5ff7645ea635c604de6df71e6596bb3"
+metafile = true
+
+[[files]]
+file = "mods/regions-unexplored-expansion.pw.toml"
+hash = "4acd42706d7da19e320e7d93cbb79abd8d72a6fe4e93b822b6dc1d479e495367"
+metafile = true
+
+[[files]]
+file = "mods/regions-unexplored.pw.toml"
+hash = "64cef135e304b7d11eb528baafad120e059499f87b1e30ac61a7b6be081dd438"
 metafile = true
 
 [[files]]
@@ -1436,11 +1445,6 @@ hash = "d45a1931a4eb0dacd96a2e68a3eb78759ffc2be344136e0ecfdb60b8a642300c"
 metafile = true
 
 [[files]]
-file = "mods/spark.pw.toml"
-hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
-metafile = true
-
-[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "2e42245826ce70d4ad673addb0e5244da388841f1484f03ee5a9426ee33b2229"
 metafile = true
@@ -1451,8 +1455,8 @@ hash = "117173886b8f3b02affe091eed839ba36d2f5ca2b5a785c4a89177bf2cce4674"
 metafile = true
 
 [[files]]
-file = "mods/terralith.pw.toml"
-hash = "0e02e93b9468dca005f7fea385e92612e38bb6807f4dcd64ce7a4b22fac78581"
+file = "mods/terrablender-neoforge.pw.toml"
+hash = "d77e4dc337b6090358c1ef01b0f99a8357e5279443e0e23e511de1be865c01c9"
 metafile = true
 
 [[files]]
@@ -1526,8 +1530,13 @@ hash = "1e64fe8b0e6b3f7099ed41c1bbe1ec213e48e2c2c7372e130abcb59b3c6679ac"
 metafile = true
 
 [[files]]
-file = "mods/wits.pw.toml"
-hash = "8e960a7f77607e87c81898bfe6649fc051df8e71ff995f05f9a0c2a22b72f55f"
+file = "mods/worldweaver-neoforge.pw.toml"
+hash = "12f1046c1f58e5b8885ee60a009a88c31fbc0722a2be7d27fd35d793ab18f13c"
+metafile = true
+
+[[files]]
+file = "mods/wunderlib-neoforge.pw.toml"
+hash = "2db6150114a149ac922dda026392b401969e31bd4b93e28c44296a9ec712bd65"
 metafile = true
 
 [[files]]
@@ -1548,11 +1557,6 @@ metafile = true
 [[files]]
 file = "mods/xycraft.pw.toml"
 hash = "d5791016a751ab3b6b0150effa5beb7e149637e5ac184c7913872bef58e2e87c"
-metafile = true
-
-[[files]]
-file = "mods/yacl.pw.toml"
-hash = "492daa3391b6079b541685db276007b286774bab3b9881505127b7aef6b3f16c"
 metafile = true
 
 [[files]]
@@ -1586,11 +1590,6 @@ hash = "aa8b30f1fedc700205ffb96c2a92e0deedbbe42f3d95d64c2fcc1228fdd049aa"
 metafile = true
 
 [[files]]
-file = "mods/yungs-better-strongholds-neoforge.pw.toml"
-hash = "0a47325379d60e0886ab96a8c247ae8820bcb1a4a8ae53d855a50a99f6cab4ca"
-metafile = true
-
-[[files]]
 file = "mods/yungs-better-witch-huts-neoforge.pw.toml"
 hash = "537a140266ce5c290490e4712935590ff40deeaa0af68f54fcf56157a82eb953"
 metafile = true
@@ -1599,3 +1598,7 @@ metafile = true
 file = "mods/zerocore.pw.toml"
 hash = "f60046584d023aaa0af0e8a1f3f021acb13121f2130f7c66b85e704da4d72643"
 metafile = true
+
+[[files]]
+file = "shaderpacks/ComplementaryUnbound_r5.6.1.zip"
+hash = "1c25b2b917ff6d0a511cf2edd8992e0bc66c950c401020f1b0362646bb3e2952"
