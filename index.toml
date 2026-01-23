@@ -835,11 +835,6 @@ hash = "942b02525962980b6176677cca162d27c1210b686985ad11db0055fe39d42a7d"
 metafile = true
 
 [[files]]
-file = "mods/fireproof-boats.pw.toml"
-hash = "4fd9a5e23d8c34d8327d4a035dc793a3522a77508a6af28e5e8793d86a14fb64"
-metafile = true
-
-[[files]]
 file = "mods/flickerfix.pw.toml"
 hash = "dcce746c053e48a2575d3b5e8da600529c64a9dcca8f798f88ff79182c1b29de"
 metafile = true
