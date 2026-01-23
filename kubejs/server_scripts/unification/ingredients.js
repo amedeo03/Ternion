@@ -21,4 +21,16 @@ ServerEvents.recipes(ternion => {
         'aether:skyroot_stick',
         '#c:rods/wooden'
     )
+    
+    ternion.replaceInput( 
+        {input: 'minecraft:crafting_table'},
+        'minecraft:crafting_table',
+        '#wover:crafting_tables'
+    )
+
+    ternion.replaceInput( 
+        {input: 'minecraft:furnace'},
+        'minecraft:furnace',
+        '#wover:furnaces'
+    )
 })

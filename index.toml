@@ -426,11 +426,11 @@ hash = "3367bf330abe76375c6367e37b144e1990154206688af56bdd8ca17005f5c9f7"
 
 [[files]]
 file = "kubejs/server_scripts/conflicts/edited_recipes.js"
-hash = "1f0c2a391d7b9f79285603865239e3a34b34661acff5c252cea99efd23786225"
+hash = "e0a468e773296ea837d284ec93cb391f650135eebccddd60732b9880a46b4390"
 
 [[files]]
 file = "kubejs/server_scripts/conflicts/removed_recipes.js"
-hash = "5fe9a3c05bd78859fb31e0d5082f3bdca62f72a23d50eedb11e75e4159a47cac"
+hash = "e863c8374104fb8765a881d1d6df51ae7b0e8f6a6710a8a5e50f26eea982514b"
 
 [[files]]
 file = "kubejs/server_scripts/pack/progression_tweaks.js"
@@ -438,7 +438,7 @@ hash = "2d71069a2385ccf8398eb05789818faea2e28de90719a11c66557d42365130c5"
 
 [[files]]
 file = "kubejs/server_scripts/pack/tweaks.js"
-hash = "3c0048cbb025b527f7003b05856b1f827b886218d37749adc3d503bf4443aead"
+hash = "a58b65bbb6c3366dba2dbc1be519336a24b9a0a8e04cd19af80fe6e6c5e9b963"
 
 [[files]]
 file = "kubejs/server_scripts/unification/boat.js"
@@ -450,15 +450,15 @@ hash = "a0a953531fde966f7a88f07dcc481e3d388f5d30c7c722a59afcfd3e915ea68b"
 
 [[files]]
 file = "kubejs/server_scripts/unification/ingredients.js"
-hash = "dc8b0509635b8cd64d57105775b7a52e93e4830621f2f911bbd3a3ba3397b305"
+hash = "c9a905145f8c315d6276cf10e69750c9b56c763f980374b8e9193fc0bee6cd29"
 
 [[files]]
 file = "kubejs/server_scripts/unification/removed_items.js"
-hash = "5d528e116e83abd8257158112a356a5630afe7e31208ddf1ddf6230ce86a320d"
+hash = "8ebe8a5e8395fb8a8e7901e85004f0c9dacf0d4168afad0fe9f9cbb59ed2d774"
 
 [[files]]
 file = "kubejs/server_scripts/unification/tags.js"
-hash = "6134c03389e08bdd115d976b50fc46b35760e2e2a4648addd047493b09b6a983"
+hash = "20adb906699553333009473267fbc9516d732eb8d1d63d20d9937864fc1e6f72"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

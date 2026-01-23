@@ -11,6 +11,7 @@ const items = [
         'aether:skyroot_pickaxe',
         'aether:skyroot_hoe',
         'aether:skyroot_bed',
+        'betterend:charcoal_block',
 ]
 
 ServerEvents.recipes(ternion => {

@@ -1,6 +1,6 @@
 const categories = [
     /^sophisticatedstorage:limited_/,
-    /^sophisticatedstorage:.*shulker_box$/
+    /^sophisticatedstorage:.*shulker_box$/,
 ]
 
 ServerEvents.recipes(ternion => {
