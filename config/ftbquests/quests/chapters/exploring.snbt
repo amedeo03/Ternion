@@ -90,7 +90,7 @@
 			id: "60E1A5227B1BDD59"
 			tasks: [{
 				id: "3F10439C09BCFF8C"
-				item: { components: { "ironjetpacks:jetpack_id": "ironjetpacks:wood" }, count: 1, id: "ironjetpacks:jetpack" }
+				item: { components: { "ftbquests:missing_item": "ironjetpacks:jetpack" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.0d

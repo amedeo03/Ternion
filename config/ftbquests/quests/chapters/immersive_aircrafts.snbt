@@ -7,7 +7,7 @@
 		id: "immersive_aircraft:enhanced_propeller"
 	}
 	id: "4D15AD4800604848"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [{
 		id: "3E46B4024770BBFD"

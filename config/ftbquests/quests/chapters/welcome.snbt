@@ -7,10 +7,91 @@
 		id: "malum:intricate_assembly"
 	}
 	id: "03C21EC3F8A57ED5"
+	images: [
+		{
+			alpha: 128
+			height: 3.0d
+			image: "minecraft:item/iron_pickaxe"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			alpha: 128
+			height: 3.0d
+			image: "ftbquests:item/book"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			alpha: 128
+			height: 3.0d
+			image: "minecraft:block/crafting_table_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			alpha: 128
+			height: 3.0d
+			image: "minecraft:item/netherite_upgrade_smithing_template"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			alpha: 128
+			height: 3.0d
+			image: "minecraft:item/spyglass"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			alpha: 128
+			height: 3.0d
+			image: "minecraft:textures/gui/sprites/toast/movement_keys.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			alpha: 128
+			height: 3.0d
+			image: "minecraft:item/gold_ingot"
+			rotation: 0.0d
+			width: 3.0d
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			alpha: 128
+			height: 3.0d
+			image: "fancymenu:textures/back_icon.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: -4.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ternion:textures/quests/icon_transparent.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "26645766829B807B"
 			shape: "hexagon"
 			size: 3.0d
@@ -23,73 +104,116 @@
 		}
 		{
 			dependencies: ["26645766829B807B"]
+			icon: {
+				id: "minecraft:iron_pickaxe"
+			}
 			id: "49CA55ECB0EAE343"
 			tasks: [{
 				id: "34B96A831AA24A52"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["26645766829B807B"]
+			icon: {
+				id: "ftbquests:book"
+			}
 			id: "1B6A790CB2F8EB4E"
 			tasks: [{
 				id: "3F9A437BBCFDBF15"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: -3.0d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["26645766829B807B"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/crafting_table_top"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "14ECFD19C218FC38"
 			tasks: [{
 				id: "65C6620A7EFC4363"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["26645766829B807B"]
+			icon: {
+				id: "minecraft:netherite_upgrade_smithing_template"
+			}
 			id: "6B9139D7BF5760A8"
 			tasks: [{
 				id: "410F56FFC4A86C88"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["26645766829B807B"]
+			icon: {
+				id: "minecraft:spyglass"
+			}
 			id: "4E173522C436B626"
 			tasks: [{
 				id: "2415AB0EB0118092"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["26645766829B807B"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/toast/movement_keys.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "415BF5607E028A64"
 			tasks: [{
 				id: "7DBC5ADA121870E4"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 3.0d
+			x: -4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["26645766829B807B"]
+			icon: {
+				id: "minecraft:gold_ingot"
+			}
 			id: "5C4E28C1B504AE8E"
 			tasks: [{
 				id: "71DB86EBE0AB6815"
 				type: "checkmark"
 			}]
-			x: -3.0d
+			x: -5.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["26645766829B807B"]
+			icon: {
+				components: {
+					"ftbquests:icon": "fancymenu:textures/back_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "76E1CC4230A48F7A"
+			tasks: [{
+				id: "4D7BBA91B236370F"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -4.0d
 		}
 	]
 }

@@ -4,7 +4,7 @@
 	filename: "powah"
 	group: "652219CFA168DABB"
 	icon: {
-		id: "powah:battery_spirited"
+		id: "powah:uraninite"
 	}
 	id: "14910B690E5728A2"
 	order_index: 1

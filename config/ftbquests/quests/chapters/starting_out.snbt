@@ -11,20 +11,16 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "minecraft:oak_log"
+			}
 			id: "22FF31C5097675E0"
 			size: 1.5d
-			tasks: [
-				{
-					id: "707D6858B04A8D51"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "4E337339105204B1"
-					item: { count: 1, id: "minecraft:crafting_table" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "707D6858B04A8D51"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -42,40 +38,29 @@
 		}
 		{
 			dependencies: ["59BD33D4CF4DDBFA"]
+			icon: {
+				id: "minecraft:iron_ore"
+			}
 			id: "3FC88B7AF2AEDFC1"
 			size: 1.5d
 			tasks: [{
 				id: "11D58665915CC9C3"
-				item: { count: 1, id: "minecraft:iron_ingot" }
+				item: { count: 1, id: "minecraft:raw_iron" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["3FC88B7AF2AEDFC1"]
+			dependencies: ["2E48F4D81297E265"]
 			id: "5503109B3CB480B9"
 			tasks: [{
 				id: "4123C4F906651755"
 				item: { components: { "sophisticatedstorage:wood_type": "oak" }, count: 1, id: "sophisticatedstorage:copper_chest" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: -2.0d
-		}
-		{
-			dependencies: [
-				"5503109B3CB480B9"
-				"7C83B3FD14BEBDF0"
-			]
-			dependency_requirement: "one_completed"
-			id: "5811CAB5B1B66935"
-			tasks: [{
-				id: "59853B0B80876E8C"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: -4.0d
 		}
 		{
 			dependencies: ["22FF31C5097675E0"]
@@ -102,6 +87,9 @@
 		}
 		{
 			dependencies: ["3FC88B7AF2AEDFC1"]
+			icon: {
+				id: "minecraft:diamond_ore"
+			}
 			id: "1B2062C3466AC0C1"
 			size: 1.5d
 			tasks: [{
@@ -109,13 +97,16 @@
 				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 11.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1B2062C3466AC0C1"]
 			icon: {
-				id: "minecraft:netherrack"
+				components: {
+					"ftbquests:icon": "minecraft:block/nether_portal"
+				}
+				id: "ftbquests:custom_icon"
 			}
 			id: "3687EC0645E5C0AC"
 			size: 1.5d
@@ -132,7 +123,7 @@
 					type: "dimension"
 				}
 			]
-			x: 12.0d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -143,18 +134,19 @@
 				item: { count: 1, id: "minecraft:blaze_rod" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 17.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3687EC0645E5C0AC"]
 			id: "37027609FA6C4A9B"
 			tasks: [{
+				count: 8L
 				id: "23EE2D335A4BB6B8"
 				item: { count: 1, id: "minecraft:glowstone" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 15.0d
 			y: 2.0d
 		}
 		{
@@ -164,7 +156,7 @@
 				id: "356681B0EF636E7E"
 				type: "checkmark"
 			}]
-			x: 12.0d
+			x: 15.0d
 			y: 4.0d
 		}
 		{
@@ -175,7 +167,7 @@
 				item: { count: 1, id: "ironfurnaces:iron_furnace" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
@@ -186,7 +178,7 @@
 				item: { count: 1, id: "ironfurnaces:augment_generator" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: 4.0d
 		}
 		{
@@ -196,7 +188,7 @@
 				id: "73094F2B2EFE67E6"
 				type: "checkmark"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: 6.0d
 		}
 		{
@@ -207,7 +199,7 @@
 				item: { count: 1, id: "minecraft:ender_eye" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 19.0d
 			y: 0.0d
 		}
 		{
@@ -234,7 +226,7 @@
 					value: 1L
 				}
 			]
-			x: 18.0d
+			x: 21.0d
 			y: 0.0d
 		}
 		{
@@ -252,7 +244,7 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
+			x: 15.0d
 			y: -2.0d
 		}
 		{
@@ -269,7 +261,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 16.0d
+			x: 19.0d
 			y: -2.0d
 		}
 		{
@@ -280,7 +272,7 @@
 				item: { count: 1, id: "hangglider:hang_glider" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -290,11 +282,17 @@
 				id: "4528C2FDF410EF88"
 				type: "checkmark"
 			}]
-			x: 8.0d
+			x: 7.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["1B2062C3466AC0C1"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/poppy"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "0AE7086A2F18FD88"
 			tasks: [
 				{
@@ -308,7 +306,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 11.0d
 			y: 2.0d
 		}
 		{
@@ -318,7 +316,7 @@
 				id: "79AE6C83AB3178E9"
 				type: "checkmark"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: 4.0d
 		}
 		{
@@ -333,15 +331,351 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["3FC88B7AF2AEDFC1"]
-			id: "4E89202F1EEAAC64"
+			dependencies: ["59BD33D4CF4DDBFA"]
+			icon: {
+				id: "minecraft:copper_ore"
+			}
+			id: "2E48F4D81297E265"
+			size: 1.0d
 			tasks: [{
-				id: "485D12ED6D3E3192"
-				item: { count: 1, id: "toolbelt:belt" }
+				id: "389723B3E95EECAE"
+				item: { count: 1, id: "minecraft:raw_copper" }
 				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["59BD33D4CF4DDBFA"]
+			icon: {
+				id: "alltheores:aluminum_ore"
+			}
+			id: "72FCFAF2217A5E54"
+			size: 1.0d
+			tasks: [{
+				id: "1167D831C9143CA3"
+				item: { count: 1, id: "alltheores:aluminum_ore" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["59BD33D4CF4DDBFA"]
+			icon: {
+				id: "alltheores:lead_ore"
+			}
+			id: "4E7372A7D96D2209"
+			size: 1.0d
+			tasks: [{
+				id: "76474419C2EC2F38"
+				item: { count: 1, id: "alltheores:raw_lead" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["59BD33D4CF4DDBFA"]
+			icon: {
+				id: "alltheores:tin_ore"
+			}
+			id: "2B8389D2B0DA2239"
+			size: 1.0d
+			tasks: [{
+				id: "1062811C3E7AACD5"
+				item: { count: 1, id: "alltheores:raw_tin" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["59BD33D4CF4DDBFA"]
+			icon: {
+				id: "alltheores:silver_ore"
+			}
+			id: "2179131CB051B7E5"
+			size: 1.0d
+			tasks: [{
+				id: "1E46DC6582A45096"
+				item: { count: 1, id: "alltheores:raw_silver" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["72FCFAF2217A5E54"]
+			id: "50AE9D82B0AEC5D0"
+			tasks: [{
+				id: "629912C5467A635E"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2B8389D2B0DA2239"]
+			id: "5621942EB9A10C25"
+			tasks: [{
+				id: "2311612E13B78F11"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2179131CB051B7E5"]
+			id: "249F89AAC062BF18"
+			tasks: [{
+				id: "4CA9E08B3C95A917"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4E7372A7D96D2209"]
+			id: "2AB24CD3AEB6A609"
+			tasks: [{
+				id: "275880C891FF88B1"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3FC88B7AF2AEDFC1"]
+			icon: {
+				id: "powah:uraninite_ore"
+			}
+			id: "6DF4F9663C9493C8"
+			tasks: [
+				{
+					id: "4F7A5E2A359685DF"
+					item: { count: 1, id: "powah:uraninite_raw" }
+					type: "item"
+				}
+				{
+					id: "03D40434D552ED66"
+					item: { count: 1, id: "alltheores:raw_uranium" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3FC88B7AF2AEDFC1"]
+			icon: {
+				id: "alltheores:nickel_ore"
+			}
+			id: "2DC104E55218776E"
+			tasks: [{
+				id: "4651D0598C3E6152"
+				item: { count: 1, id: "alltheores:raw_nickel" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3FC88B7AF2AEDFC1"]
+			icon: {
+				id: "minecraft:redstone_ore"
+			}
+			id: "50A6130694F5C279"
+			tasks: [{
+				id: "3461C232DC32A433"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3FC88B7AF2AEDFC1"]
+			icon: {
+				id: "minecraft:gold_ore"
+			}
+			id: "1F1C825EE79F85DC"
+			tasks: [{
+				id: "61C60CD0658A1375"
+				item: { count: 1, id: "minecraft:raw_gold" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["50A6130694F5C279"]
+			id: "2AE09079C6ED3894"
+			tasks: [{
+				id: "5F957985CFB36956"
+				type: "checkmark"
 			}]
 			x: 9.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["1F1C825EE79F85DC"]
+			id: "7065FB6055D8E580"
+			tasks: [{
+				id: "5627077CCB02EF16"
+				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2DC104E55218776E"]
+			id: "1A6B848A5AFBD156"
+			tasks: [{
+				id: "1AB834A39B43D4F8"
+				item: { count: 1, id: "oritech:item_pipe" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6DF4F9663C9493C8"]
+			id: "6DC0C46930CBC44F"
+			tasks: [{
+				id: "45E6FE3C4234C45B"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1B2062C3466AC0C1"]
+			icon: {
+				id: "alltheores:osmium_ore"
+			}
+			id: "622B6C646C8833BF"
+			tasks: [{
+				id: "21638DA23FB6A803"
+				item: { count: 1, id: "alltheores:raw_osmium" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1B2062C3466AC0C1"]
+			icon: {
+				id: "alltheores:platinum_ore"
+			}
+			id: "6940E345E79220F6"
+			tasks: [{
+				id: "01F07FA638DF03D4"
+				item: { count: 1, id: "alltheores:raw_platinum" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3687EC0645E5C0AC"
+				"1B2062C3466AC0C1"
+			]
+			id: "55702B2C5C2FA2DC"
+			tasks: [{
+				id: "7E95715D94B94BA7"
+				item: { count: 1, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3687EC0645E5C0AC"]
+			id: "680E6B134BEBA6E9"
+			tasks: [{
+				id: "1D77E0276A6EFED8"
+				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["680E6B134BEBA6E9"]
+			id: "2C658826988DC3E8"
+			tasks: [{
+				id: "64F4506DBF9B3342"
+				item: { count: 1, id: "minecraft:netherite_pickaxe" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["622B6C646C8833BF"]
+			id: "0043557EEB5978CA"
+			tasks: [{
+				id: "35EB311BB1A84D00"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6940E345E79220F6"]
+			id: "2F830670A3B3E44E"
+			tasks: [{
+				id: "41BDD3CDBE6431EF"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3FC88B7AF2AEDFC1"]
+			id: "64EF222873EC3249"
+			tasks: [{
+				id: "2ACC172A23C34FF7"
+				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["64EF222873EC3249"]
+			id: "10C32AC46BBB07AC"
+			tasks: [{
+				id: "59D0D8EE8F33995C"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B2062C3466AC0C1"]
+			id: "4DB122DEA6DDFEA1"
+			tasks: [{
+				id: "4255B156F737E8DC"
+				item: { count: 1, id: "mob_grinding_utils:saw" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DB122DEA6DDFEA1"]
+			id: "4F606B79C0CCBCE3"
+			tasks: [{
+				id: "40AED1F5DC31B980"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: 4.0d
 		}
 	]
 }

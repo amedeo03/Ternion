@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mob_grinding_utils"
+	group: "652219CFA168DABB"
+	icon: {
+		id: "minecraft:spawner"
+	}
+	id: "45BDB65B5ACF53EB"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "6AD263F4D348DF35"
+		tasks: [{
+			id: "007A786D092C5F02"
+			item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:silk_touch": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}
