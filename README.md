@@ -6,7 +6,7 @@ The pack is developed for Minecraft 1.21.1, using NeoForge as its mod loader
 
 # Pack Overview
 
-Ternion includes a broad selection of mods across technology, magic, and exploration, being a kitchen-sink pack. You are free to engage with the systems that interest you most, without being locked into a single progression path. At the same time, the pack is not aimless: there is one overarching end goal that ties all the major mods together. An extensive quest book acts as your guide throughout the pack. The quests are obviously optional but strongly recommended, especially for players new to modded Minecraft. The pack is also relatively lightweight (currently 256 mods loaded) compared to similarly scoped modpacks, which enables it to run even on lower end hardware.
+Ternion includes a broad selection of mods across technology, magic, and exploration, being a kitchen-sink pack. You are free to engage with the systems that interest you most, without being locked into a single progression path. At the same time, the pack is not aimless: there is one overarching end goal that ties all the major mods together. An extensive quest book acts as your guide throughout the pack. The quests are obviously optional but strongly recommended, especially for players new to modded Minecraft. The pack is also relatively lightweight (currently 260 mods loaded) compared to similarly scoped modpacks, which enables it to run even on lower end hardware.
 
 ## Who Is This Pack For?
 

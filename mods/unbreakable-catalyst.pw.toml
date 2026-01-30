@@ -1,0 +1,13 @@
+name = "Unbreakable Catalyst"
+filename = "unbreakablecatalyst-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3a381f81669ee967737fc1037825ee20ea153ab3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7453109
+project-id = 1427017

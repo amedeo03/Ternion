@@ -123,6 +123,14 @@
 		{
 			dependencies: ["11AA3BBA2DFFEBBE"]
 			id: "1533A7B53F0AD4AE"
+			rewards: [{
+				id: "13448275F6B420AF"
+				item: {
+					count: 1
+					id: "unbreakablecatalyst:unbreakable_catalyst"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D1E261895137BF1"
 				type: "checkmark"
@@ -172,15 +180,10 @@
 		{
 			id: "26F39F803F9593E0"
 			rewards: [{
-				id: "7F9443B781CABD25"
+				id: "780863422F705922"
 				item: {
-					components: {
-						"mekanism:energy": {
-							energy_containers: [L;256000000L]
-						}
-					}
 					count: 1
-					id: "mekanism:ultimate_energy_cube"
+					id: "rftoolsbuilder:builder"
 				}
 				type: "item"
 			}]

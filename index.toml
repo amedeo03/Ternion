@@ -21,6 +21,10 @@ file = "config/aether-startup.toml"
 hash = "e3915bf50d806c5caa3dcebc243818c2c4aeb149599b33e6286ea2828370dd69"
 
 [[files]]
+file = "config/ali/ali_common.json"
+hash = "b1ebe2586e00f8cef46134d15ef22c72c1956a3f3217cd44db3b41010be0ebd7"
+
+[[files]]
 file = "config/almostunified/unification/materials.json"
 hash = "b35a288d808e19f4a2bf68eb1854bf97a9777e08895a0c139909ff0e3b103290"
 
@@ -31,6 +35,10 @@ hash = "835a6dfb623e5755574cefff615e98b04a2ad716440973cf51598265809681f7"
 [[files]]
 file = "config/ars_nouveau-common.toml"
 hash = "b1a7e267eac38e5dab7a225798f854333eb45a405e1caee6e895af1cc51b006f"
+
+[[files]]
+file = "config/durability.json"
+hash = "db469bf562fad78775d05f02bcd9565482b14fa18a489a644f8ed4204aa7e7f1"
 
 [[files]]
 file = "config/fancymenu/assets/icon.png"
@@ -81,6 +89,10 @@ file = "config/fancymenu/user_variables.db"
 hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
+file = "config/ftbbackups3-server.snbt"
+hash = "ded32b163d944a597cd2bafc69058282cda8621e7ba8f5f60b1693fb52c3bab7"
+
+[[files]]
 file = "config/ftbquests-client.snbt"
 hash = "ead71f25f6006be8f79cdf3e45006c930e7721ad32a262c2c1d3f62242a31f00"
 
@@ -94,7 +106,7 @@ hash = "e72135a82628e773f3e3abdfd0ed4a4200bb2c2933b286998c585b97331689c1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ars_nouveau.snbt"
-hash = "e8b690044aee4121139d66d156286d59acd99ba79063c5f3c05f8d188cbae4f0"
+hash = "bc7dcf83f1114a0070d1d7fd83cb1f65cc5e183887fd26d810cd577212bd5537"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/building.snbt"
@@ -114,7 +126,7 @@ hash = "631144bce463d4171cd4eff7526889df3d2bcde92e48f53638b7364a2ae9df3d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/goals.snbt"
-hash = "2b8bf98030da94d55905e9c206c78ad4c3d954d47dcd325e0f0c74f5b132e1db"
+hash = "6aebc93c2c75da5a19329d568281702b126dec4b0e9ecc2e40a1adb58e6f78c5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hostile_neural_networks.snbt"
@@ -218,7 +230,15 @@ hash = "4fc7b0a8989c651ee3a6bee2a1f9003c0cd7131e8accbff4081cdad9315ac220"
 
 [[files]]
 file = "icon.png"
-hash = "0bb7ea03e1adc47b2e0359fe0ed218984599f49f1bab9eb49b4db6d1904f4806"
+hash = "59ca9315c7ba49d86062ca0e065703e50356c01e52d3e58c94acc5c3f467e3b0"
+
+[[files]]
+file = "kubejs/assets/ternion/textures/item/unbreakable_catalyst.png"
+hash = "beac036127295616b3eadd4e12458d855b54c011d72083b895afd323d87cc860"
+
+[[files]]
+file = "kubejs/assets/ternion/textures/item/unbreakable_catalyst.png.mcmeta"
+hash = "90a27f3977bb41cfbd40c881a6423115cf7384d1eab6373b1dca2fb15c1019a4"
 
 [[files]]
 file = "kubejs/assets/ternion/textures/quests/icon_transparent.png"
@@ -237,7 +257,7 @@ file = "kubejs/config/common.json"
 hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
-file = "kubejs/config/options.txt"
+file = "kubejs/config/defaultoptions.txt"
 hash = "1373438554cfc0ce15fc0a778174b2ca8f1819166b9f7e88bd23bd5c5938cd37"
 
 [[files]]
@@ -418,35 +438,31 @@ hash = "e863c8374104fb8765a881d1d6df51ae7b0e8f6a6710a8a5e50f26eea982514b"
 
 [[files]]
 file = "kubejs/server_scripts/pack/progression_tweaks.js"
-hash = "2d71069a2385ccf8398eb05789818faea2e28de90719a11c66557d42365130c5"
+hash = "429c08bdf3ff96a0fc722e737c26613f394b3877d08889c17019fccb71135a5d"
 
 [[files]]
-file = "kubejs/server_scripts/pack/tweaks.js"
+file = "kubejs/server_scripts/pack/removed_items.js"
 hash = "a58b65bbb6c3366dba2dbc1be519336a24b9a0a8e04cd19af80fe6e6c5e9b963"
 
 [[files]]
-file = "kubejs/server_scripts/unification/boat.js"
+file = "kubejs/server_scripts/unification/boat_from_ars.js"
 hash = "84cd3801dbf3aac139bec1385a2ddad8163768077e85b381c03d271bda716fe5"
 
 [[files]]
-file = "kubejs/server_scripts/unification/gear.js"
+file = "kubejs/server_scripts/unification/if_gear_removal.js"
 hash = "a0a953531fde966f7a88f07dcc481e3d388f5d30c7c722a59afcfd3e915ea68b"
 
 [[files]]
-file = "kubejs/server_scripts/unification/ingredients.js"
-hash = "c9a905145f8c315d6276cf10e69750c9b56c763f980374b8e9193fc0bee6cd29"
+file = "kubejs/server_scripts/unification/removed_unified_items.js"
+hash = "8ebe8a5e8395fb8a8e7901e85004f0c9dacf0d4168afad0fe9f9cbb59ed2d774"
 
 [[files]]
-file = "kubejs/server_scripts/unification/removed_items.js"
-hash = "8ebe8a5e8395fb8a8e7901e85004f0c9dacf0d4168afad0fe9f9cbb59ed2d774"
+file = "kubejs/server_scripts/unification/tagged_ingredients.js"
+hash = "c9a905145f8c315d6276cf10e69750c9b56c763f980374b8e9193fc0bee6cd29"
 
 [[files]]
 file = "kubejs/server_scripts/unification/tags.js"
 hash = "20adb906699553333009473267fbc9516d732eb8d1d63d20d9937864fc1e6f72"
-
-[[files]]
-file = "kubejs/startup_scripts/pack/rebalancing.js"
-hash = "00edb7b25e43384fa9ba8eb374e1b15f78b3c674923a13c53aa8edbbbf70c3d3"
 
 [[files]]
 file = "mods/accelerated-decay.pw.toml"
@@ -465,7 +481,7 @@ metafile = true
 
 [[files]]
 file = "mods/advanced-loot-info.pw.toml"
-hash = "65d4ae8febddc683f998e04dc7863d1c092ed280feee15250e831e5344c19149"
+hash = "01a1f428419cb0015d91dc1525e55aaef93bfe73d44a4a597c8da920d7274371"
 metafile = true
 
 [[files]]
@@ -555,7 +571,7 @@ metafile = true
 
 [[files]]
 file = "mods/baguettelib.pw.toml"
-hash = "e8ed8e243655cb6d2026fa62280217ad0cba128d352386b53b397b1175d3d3cb"
+hash = "12f240d6dde74a5daf9b970eaf3df32c7e76731fd3eb43622effc43df9a7cf18"
 metafile = true
 
 [[files]]
@@ -714,6 +730,11 @@ hash = "589e6549cfe4f211abd2829fab1d00d9906a72d22b96f0fdb7e11fbb277ac1a1"
 metafile = true
 
 [[files]]
+file = "mods/durability-mod.pw.toml"
+hash = "32b5d3ec356f3dd338e73401d445d63e03e44560aee5a128233051d1737d1d85"
+metafile = true
+
+[[files]]
 file = "mods/durability-tooltip.pw.toml"
 hash = "13af7707844b2af1b04c8e95ad86016cd45e89a8d10b9a6aba1caee55e6991fe"
 metafile = true
@@ -834,6 +855,11 @@ hash = "dd617747ecd36e752952071f625876727cac62ae2acc95512c53e6414cbf8b1e"
 metafile = true
 
 [[files]]
+file = "mods/ftb-backups-3.pw.toml"
+hash = "063326ed3a4ae2bc704b811b1b63e8003bb335c18951f656c5ad98ac15c8e09a"
+metafile = true
+
+[[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
 hash = "be5c86940c47192b7f731331b08362bf37174c07f1af6244944731ba8f79805c"
 metafile = true
@@ -930,7 +956,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "6c275f621e7c3895ed34ee0e5bf847916a4285ac0f6452982ad6dccd5dd59851"
+hash = "8e67a96432b89ad64ec00b59666f510ead091dea23632a672ac800c77964e9ae"
 metafile = true
 
 [[files]]
@@ -960,7 +986,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "a930b919e6edc62681559da1ebfcdf4873568ad58a0f5d9f73da0093e92ade7b"
+hash = "e739b7355ab3cfba2e729f8f0b51eafc3d9c3afb19ee30ac7b311631610c5e66"
 metafile = true
 
 [[files]]
@@ -1400,12 +1426,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "497f8c167de1b8f76800323ccb8168884f0ab33ed65a93c9bfc35772d8fc44d0"
+hash = "519a83b477a2e5db977661c25ee4f598acbd7dc47db16ceec32a77994c803312"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "455854c5204d20305e0cb85bf6ba4d2c6a36d31981dece484314e7a597d2940a"
+hash = "3301ee6d9d083227387e1bf6b6a3067e06cf2fd09bcabc1e4d674eb689903fbe"
+metafile = true
+
+[[files]]
+file = "mods/spice-of-life-carrot-edition.pw.toml"
+hash = "e520ad446364dff7dd50896108a96140f3f5598b72003dade5b17308fa9ef2a9"
 metafile = true
 
 [[files]]
@@ -1425,7 +1456,7 @@ metafile = true
 
 [[files]]
 file = "mods/tesseract-api-neoforge.pw.toml"
-hash = "56611d13abab0d0ca4d3347d0ab56822da8cd691558032017f8c43efabd317e7"
+hash = "3551d7044bb85f389146b5cb4654b52bf864b6298fff2a44177f4d8312bc04e3"
 metafile = true
 
 [[files]]
@@ -1471,6 +1502,11 @@ metafile = true
 [[files]]
 file = "mods/umbral-skies.pw.toml"
 hash = "596a721eb313f363b59968b70eef584e33600577ed1136708df65c3422803f38"
+metafile = true
+
+[[files]]
+file = "mods/unbreakable-catalyst.pw.toml"
+hash = "9586f107e758ec1162c15b119c919b319ab37dbddccd54583bdcb60feb436160"
 metafile = true
 
 [[files]]

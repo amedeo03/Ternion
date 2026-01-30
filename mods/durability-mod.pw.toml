@@ -1,0 +1,13 @@
+name = "Durability Mod"
+filename = "durability-neoforge-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a1db2dfea8f8ab9d222337cf527329e517007714"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7282780
+project-id = 354656
