@@ -1,13 +1,13 @@
 name = "BetterNether Neoforge"
-filename = "BetterNether-21.0.16.jar"
+filename = "BetterNether-21.0.17.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b6daf0555835fe28660a92e3ef401d03d2beb5e9"
+hash = "15ed963306361980228df115500a44f15bb0e528"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7469689
+file-id = 7550961
 project-id = 1422293

@@ -230,22 +230,22 @@ hash = "4fc7b0a8989c651ee3a6bee2a1f9003c0cd7131e8accbff4081cdad9315ac220"
 
 [[files]]
 file = "icon.png"
-hash = "59ca9315c7ba49d86062ca0e065703e50356c01e52d3e58c94acc5c3f467e3b0"
+hash = "24e85da29c33af16257d235670475c4b53cbb6a07152743015681d31e6416405"
 
 [[files]]
-file = "kubejs/assets/ternion/textures/item/unbreakable_catalyst.png"
+file = "kubejs/assets/unbreakablecatalyst/textures/item/unbreakable_catalyst.png"
 hash = "beac036127295616b3eadd4e12458d855b54c011d72083b895afd323d87cc860"
 
 [[files]]
-file = "kubejs/assets/ternion/textures/item/unbreakable_catalyst.png.mcmeta"
+file = "kubejs/assets/unbreakablecatalyst/textures/item/unbreakable_catalyst.png.mcmeta"
 hash = "90a27f3977bb41cfbd40c881a6423115cf7384d1eab6373b1dca2fb15c1019a4"
 
 [[files]]
-file = "kubejs/assets/ternion/textures/quests/icon_transparent.png"
+file = "kubejs/assets/unbreakablecatalyst/textures/quests/icon_transparent.png"
 hash = "59ca9315c7ba49d86062ca0e065703e50356c01e52d3e58c94acc5c3f467e3b0"
 
 [[files]]
-file = "kubejs/assets/ternion/textures/quests/title_big.png"
+file = "kubejs/assets/unbreakablecatalyst/textures/quests/title_big.png"
 hash = "a79f02515b553b48dd44506cadadd05488a96e876003683570a4d1fd78a24a90"
 
 [[files]]
@@ -258,7 +258,7 @@ hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "1373438554cfc0ce15fc0a778174b2ca8f1819166b9f7e88bd23bd5c5938cd37"
+hash = "178fa2b809db80b1acf6bd0d5994a3b00e69367dc107b8beec208fdd142161cd"
 
 [[files]]
 file = "kubejs/data/alltheores/neoforge/biome_modifier/cinnabar_end.json"
@@ -462,7 +462,7 @@ hash = "c9a905145f8c315d6276cf10e69750c9b56c763f980374b8e9193fc0bee6cd29"
 
 [[files]]
 file = "kubejs/server_scripts/unification/tags.js"
-hash = "20adb906699553333009473267fbc9516d732eb8d1d63d20d9937864fc1e6f72"
+hash = "7983040a04e4f929c084eeefa5e0f20e0e5b9c377cf8cad9a3f3ed2aeda97474"
 
 [[files]]
 file = "mods/accelerated-decay.pw.toml"
@@ -471,17 +471,17 @@ metafile = true
 
 [[files]]
 file = "mods/accessories-compat-layer.pw.toml"
-hash = "10e2e8e9561612327d3771e665043dcc7313201b326685dc4e1b032f93ecb4e2"
+hash = "0085d9a1eb73a68fe1d07f26b27fb93b0e1a582ab0f47d068fc94d055165aa99"
 metafile = true
 
 [[files]]
 file = "mods/accessories.pw.toml"
-hash = "a15f3ab51e3a138c7ea0ff93513b09d5cda22418ca83a14eb09ab38ca0945c3d"
+hash = "39ec3cac812f819f45b88a70f6b83eb8c0e6007e9272bbccfb3f364b421d2631"
 metafile = true
 
 [[files]]
 file = "mods/advanced-loot-info.pw.toml"
-hash = "01a1f428419cb0015d91dc1525e55aaef93bfe73d44a4a597c8da920d7274371"
+hash = "22f1e284ed32633a80f9991142404b31defe63d9d9cec90612405dacf3c43122"
 metafile = true
 
 [[files]]
@@ -512,6 +512,11 @@ metafile = true
 [[files]]
 file = "mods/almost-unified.pw.toml"
 hash = "afd9837f16b0b8fe16fe8788470334b7bb13d9c452f46a058d1a2c012f079adf"
+metafile = true
+
+[[files]]
+file = "mods/anvil-never-too-expensive.pw.toml"
+hash = "9451d3e47aa74425c4de5fe855c6c7a49280c16ab3c08a00056ebc3e98c37780"
 metafile = true
 
 [[files]]
@@ -556,7 +561,7 @@ metafile = true
 
 [[files]]
 file = "mods/ars-ocultas.pw.toml"
-hash = "132cf6e24275253f07d656b9f0719e4b9225d054ffaee70872c1f69a060a153c"
+hash = "bb5a5298de4922896b19ccffbfe6a236fe370c465cfca01b7fa3be6fd8a7e4e3"
 metafile = true
 
 [[files]]
@@ -581,7 +586,7 @@ metafile = true
 
 [[files]]
 file = "mods/bclib-neoforge.pw.toml"
-hash = "1b5accaaab4e9c9f343c73064c2744792a32938aadf4bbadaf188f6f379fd2ac"
+hash = "2577da9ca2bb65783ccaefb8b269dea21dd7943c78504c0b87fe52d1d8690e7e"
 metafile = true
 
 [[files]]
@@ -596,12 +601,12 @@ metafile = true
 
 [[files]]
 file = "mods/betterend-neoforge.pw.toml"
-hash = "38ffede3314cf74a3c3d3e8261d5b42805234eea418fabb902ab163c6e8ae2d6"
+hash = "129924bcfd830b28922df27653ef41d18cb7be6a8ca2a63f16e35d9fdfe24849"
 metafile = true
 
 [[files]]
 file = "mods/betternether-neoforge.pw.toml"
-hash = "f847a821d637dad4b4760422b49f76856110ebe6e4a9b73762cf6b5d4dd48fd5"
+hash = "03ae5fcf838c2853c5d4657ce2516cee61457c2c033259e2774742e9cd3406d9"
 metafile = true
 
 [[files]]
@@ -616,7 +621,12 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "893fdff8f8874afad2fbf8ca68818cf3105759ff4286d01bcfb0cf2451b21061"
+hash = "a4b782d5d6ed30311475caa01341d75ccb6fa7c154d88ffa25ddebf13b1e570c"
+metafile = true
+
+[[files]]
+file = "mods/chipped.pw.toml"
+hash = "3024466ae43de66612dc5ec4cfe5b3a273f71cee29fc6940308798a817d561b6"
 metafile = true
 
 [[files]]
@@ -701,7 +711,7 @@ metafile = true
 
 [[files]]
 file = "mods/cristel-lib.pw.toml"
-hash = "6561298100cdcaed1f9f09d3a5f49fe6287b66232b559a86ac5abab1f6352013"
+hash = "7e266aeb4533b67f4fbdd30a6654cfa6439843b9a973d70bdc0443c219c0b54e"
 metafile = true
 
 [[files]]
@@ -821,7 +831,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "f407238ae37effcd669f828b80a7246e805bc099b4848cd550b1d2d428fea78b"
+hash = "caa3b01c9062f619f8f07ad73c853f574c0652bb95bf68f1e22e771f951fa01a"
 metafile = true
 
 [[files]]
@@ -851,7 +861,7 @@ metafile = true
 
 [[files]]
 file = "mods/framedblocks.pw.toml"
-hash = "dd617747ecd36e752952071f625876727cac62ae2acc95512c53e6414cbf8b1e"
+hash = "fe1a2e5c0b708a8ea8935a17889774446eac3fd2daeea450f02c5806ce7f5cc8"
 metafile = true
 
 [[files]]
@@ -891,7 +901,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-ultimine-forge.pw.toml"
-hash = "3b077d8a8344ab91ca90551a781ad1eadc99c119a387ce7481e141322b6b8951"
+hash = "bb02254ff406bc071898c14e89f3dae3230d877e5bf30b6f614fc1bbf06d9f73"
 metafile = true
 
 [[files]]
@@ -961,12 +971,12 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-aircraft.pw.toml"
-hash = "e01a9920aa95f8bcea40bf8e56eb4fbc43b9f554375fd58d86537d3b7e19c943"
+hash = "899383fca0ee4a9901b61f42a83122a1b76bc91c08c6cbf00c6fbbdc87f76532"
 metafile = true
 
 [[files]]
 file = "mods/industrial-foregoing.pw.toml"
-hash = "c3e1837850c9410bd8301583a0771e2ec0fc5f485d3bd74b57a9cf1967c6a0d6"
+hash = "c307c6f682a2ddff8181191b1070bae08c11482eccef8ea3d0428ea63ac08d6e"
 metafile = true
 
 [[files]]
@@ -1036,7 +1046,7 @@ metafile = true
 
 [[files]]
 file = "mods/lendercataclysm.pw.toml"
-hash = "62f78f4c3c3fac7e5f0507e2b7a2fdf854a263d34b45c0295df8a07255c37ead"
+hash = "41f038e835741ab11c243fd04b4ce4d81b94f06042c95feef75faaade07f06be"
 metafile = true
 
 [[files]]
@@ -1046,7 +1056,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "3ac8c76f4cb2f1200d60fa2e74108d9cb9355346ddb8a4a735134dfac7b77136"
+hash = "7e594ed71fde064ffc4c6f404cc526c7fc232d9933571499a4f259f8b7cd78b3"
 metafile = true
 
 [[files]]
@@ -1246,7 +1256,7 @@ metafile = true
 
 [[files]]
 file = "mods/occultism.pw.toml"
-hash = "39f0dcf530f47d6a2caa0a490ede263cfdc7ecf6b0e4a68cd7f36eea84ebab05"
+hash = "5a3da1e8976257fe86890e2a6a91ee3d2661683c51862a18d35b51082bb1528e"
 metafile = true
 
 [[files]]
@@ -1261,7 +1271,7 @@ metafile = true
 
 [[files]]
 file = "mods/oritech.pw.toml"
-hash = "876164a4cf7aa03ea49a5210397a4aaa8fc5138d158f12280016e2cd93a34172"
+hash = "67c4f75152347bbf2879fb8e64daeab73f6d10c8a6ef9b684b90b7c4de0fd58b"
 metafile = true
 
 [[files]]
@@ -1421,17 +1431,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "d885c5a1e2c68ce68522ba95e6ddff9fd4ef76d16b3012374be0574081914690"
+hash = "3b81f020fb4343b6e5bbbb63e3f110919985c6bda005a138ad0435e92533fd7a"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "519a83b477a2e5db977661c25ee4f598acbd7dc47db16ceec32a77994c803312"
+hash = "742d4d3ef471389ce95cffc4b8303ee6fbb68bb202467e7c11f4a71d8728b73a"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "3301ee6d9d083227387e1bf6b6a3067e06cf2fd09bcabc1e4d674eb689903fbe"
+hash = "1eb5f0bd6b159c8f3a73a29327a7d015716ec43bcb7b39f8120b7205bf8c977f"
 metafile = true
 
 [[files]]
@@ -1456,7 +1466,7 @@ metafile = true
 
 [[files]]
 file = "mods/tesseract-api-neoforge.pw.toml"
-hash = "3551d7044bb85f389146b5cb4654b52bf864b6298fff2a44177f4d8312bc04e3"
+hash = "77657a55aa853788fe040b5c6125b688ee01db2c5f40c5d5ec0894704423fa3f"
 metafile = true
 
 [[files]]
